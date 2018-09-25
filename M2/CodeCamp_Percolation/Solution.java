@@ -31,7 +31,7 @@ class Percolate {
      * .
      * @param size [description]
      */
-    boolean[][] grid;
+    private boolean[][] grid;
     /**
      * private obj.
      */
