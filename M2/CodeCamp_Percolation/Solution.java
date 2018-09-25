@@ -2,7 +2,11 @@ import java.util.Scanner;
 /**
  * class sescription.
  */
-class Solution {
+final class Solution {
+    /**
+     * default constructor.
+     */
+    private Solution() { }
     /**
      * main method.
      * @param args [description]
@@ -13,11 +17,11 @@ class Solution {
         Percolate obj = new Percolate(input);
         while (sc.hasNextLine()) {
             String[] input1 = sc.nextLine().split(" ");
-            obj.open(Integer.parseInt(input1[0]) - 1, Integer.parseInt(input1[1]) - 1);
+            obj.open(Integer.parseInt(input1[0]) - 1,
+                Integer.parseInt(input1[1]) - 1);
         }
         System.out.println(obj.isPercolate());
     }
-
 }
 /**
  * Percolate class.
@@ -28,13 +32,18 @@ class Percolate {
      * @param size [description]
      */
     boolean[][] grid;
-    WeightedQuickUnionUF obj;
-    int size;
+    private WeightedQuickUnionUF obj;
+    private int size;
     Percolate(int size1) {
         this.size = size1;
         grid = new boolean[size1][size1];
         obj = new WeightedQuickUnionUF(size1 * size1 + 2);
     }
+    /**
+     * open method.
+     * @param row [description]
+     * @param column [description]
+     */
     public void open(final int row, final int column) {
         if (grid[row][column]) {
             return;
@@ -61,11 +70,21 @@ class Percolate {
 
 
     }
-
+    /**
+     * @brief [brief description]
+     * @details [long description]
+     * @return [description]
+     */
     public boolean isPercolate() {
         return obj.connected(size * size, size * size + 1);
     }
-
+    /**
+     *
+     * @param i [description]
+     * @param j [description]
+     *
+     * @return [description]
+     */
     public int convert(final int i, final int j) {
         return i * size + j;
     }
