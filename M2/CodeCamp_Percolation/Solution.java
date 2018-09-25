@@ -30,12 +30,12 @@ class Percolate {
     boolean[][] grid;
     WeightedQuickUnionUF obj;
     int size;
-    Percolate(int size) {
-        this.size = size;
-        grid = new boolean[size][size];
-        obj = new WeightedQuickUnionUF(size * size + 2);
+    Percolate(int size1) {
+        this.size = size1;
+        grid = new boolean[size1][size1];
+        obj = new WeightedQuickUnionUF(size1 * size1 + 2);
     }
-    public void open(int row, int column) {
+    public void open(final int row, final int column) {
         if (grid[row][column]) {
             return;
         }
@@ -61,6 +61,7 @@ class Percolate {
 
 
     }
+
     public boolean isPercolate() {
         return obj.connected(size * size, size * size + 1);
     }
