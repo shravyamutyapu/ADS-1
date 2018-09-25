@@ -7,7 +7,7 @@ class Solution {
      * main method.
      * @param args [description]
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = Integer.parseInt(sc.nextLine());
         Percolate obj = new Percolate(input);
@@ -65,7 +65,7 @@ class Percolate {
         return obj.connected(size * size, size * size + 1);
     }
 
-    public int convert(int i, int j) {
+    public int convert(final int i, final int j) {
         return i * size + j;
     }
 }
