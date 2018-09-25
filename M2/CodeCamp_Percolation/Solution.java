@@ -1,29 +1,36 @@
 import java.util.Scanner;
 /**
  * class sescription.
- * @param args [description]
  */
 class Solution {
+    /**
+     * main method.
+     * @param args [description]
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int input = Integer.parseInt(sc.nextLine());
-        percolate obj = new percolate(input);
+        Percolate obj = new Percolate(input);
         while (sc.hasNextLine()) {
             String[] input1 = sc.nextLine().split(" ");
             obj.open(Integer.parseInt(input1[0]) - 1, Integer.parseInt(input1[1]) - 1);
         }
-        System.out.println(obj.ispercolate());
+        System.out.println(obj.isPercolate());
     }
 
 }
 /**
- * percolate class.
+ * Percolate class.
  */
-class percolate {
+class Percolate {
+    /**
+     * .
+     * @param size [description]
+     */
     boolean[][] grid;
     WeightedQuickUnionUF obj;
     int size;
-    percolate(int size) {
+    Percolate(int size) {
         this.size = size;
         grid = new boolean[size][size];
         obj = new WeightedQuickUnionUF(size * size + 2);
@@ -54,7 +61,7 @@ class percolate {
 
 
     }
-    public boolean ispercolate() {
+    public boolean isPercolate() {
         return obj.connected(size * size, size * size + 1);
     }
 
