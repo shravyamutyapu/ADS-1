@@ -32,9 +32,19 @@ class Percolate {
      * @param size [description]
      */
     boolean[][] grid;
+    /**
+     * private obj.
+     */
     private WeightedQuickUnionUF obj;
+    /**
+     * private size.
+     */
     private int size;
-    Percolate(int size1) {
+    /**
+     * .
+     * @param size1 [description]
+     */
+    Percolate(final int size1) {
         this.size = size1;
         grid = new boolean[size1][size1];
         obj = new WeightedQuickUnionUF(size1 * size1 + 2);
