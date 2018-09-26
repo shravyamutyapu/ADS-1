@@ -53,7 +53,8 @@ class Sum {
      * @param low1 [description]
      * @return [description]
      */
-    public static int binarySearch(final int[] a, final int key, final int low1) {
+    public static int binarySearch(
+        final int[] a, final int key, final int low1) {
         int hi = a.length - 1;
         int lo = low1;
         while (lo <= hi) {
