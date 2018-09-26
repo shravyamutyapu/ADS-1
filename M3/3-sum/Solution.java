@@ -1,8 +1,12 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
+/**
+ * Solution class.
+ */
 final class Solution {
-
+	/**
+	 * .
+	 */
 private Solution() {
 }
 
@@ -17,7 +21,9 @@ private Solution() {
         sum.countMethod(arr);
     }
 }
-
+/**
+ * class Sum.
+ */
 class Sum {
 
     public void countMethod(final int[] arr1) {
