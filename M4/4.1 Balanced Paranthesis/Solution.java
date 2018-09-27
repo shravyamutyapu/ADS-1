@@ -11,8 +11,14 @@ class LinkedStackOfStrings {
      * inner class.
      */
     private class Node {
-        char item;
-        Node nextAddress;
+        /**
+         *char.
+         */
+        private char item;
+        /**
+         * node.
+         */
+        private Node nextAddress;
     }
     /**
      * returns top of the stack.
@@ -32,7 +38,7 @@ class LinkedStackOfStrings {
      * push method.
      * @param item [description]
      */
-    public void push(char item) {
+    public void push(final char item) {
 
         Node oldfirst = first;
         first = new Node();
