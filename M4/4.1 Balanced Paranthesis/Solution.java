@@ -60,6 +60,10 @@ class LinkedStackOfStrings {
  */
 final class Solution {
     /**
+     * default constructor.
+     */
+    private Solution() { }
+    /**
      * main method.
      * @param args [description]
      */
