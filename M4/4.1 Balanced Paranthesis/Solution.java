@@ -30,11 +30,12 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 		int size = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < size; i++) {
-			String line = sc.nextLine();
+			String line = sc.next();
 			if(checkParanthesis(line)){
 				System.out.println("YES");
+			} else {
+				System.out.println("NO");
 			}
-			System.out.println("NO");
 
 		}
 	}
@@ -46,7 +47,7 @@ public class Solution {
 			if (ch == '(' || ch == '{' || ch == '[') {
 				obj.push(ch);
 			}
-			if (ch == ')' && obj.top() == '(') {
+			else if (ch == ')' && obj.top() == '(') {
 				obj.pop();
 			} else if (ch == '}' && obj.top() == '{') {
 				obj.pop();
