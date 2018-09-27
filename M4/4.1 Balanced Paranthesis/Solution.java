@@ -52,12 +52,12 @@ class LinkedStackOfStrings {
 /**
  * Solution class.
  */
-public class Solution {
+final class Solution {
     /**
      * main method.
      * @param args [description]
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < size; i++) {
@@ -73,6 +73,7 @@ public class Solution {
     /**
      * checking if valid or not.
      * @param s [description]
+     * @return bool value.
      */
     public static boolean checkParanthesis(final String s) {
         LinkedStackOfStrings obj = new LinkedStackOfStrings();
