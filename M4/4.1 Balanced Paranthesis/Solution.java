@@ -31,6 +31,11 @@ public class Solution {
 		int size = Integer.parseInt(sc.nextLine());
 		for (int i = 0; i < size; i++) {
 			String line = sc.nextLine();
+			if(checkParanthesis(line)){
+				System.out.println("YES");
+			}
+			System.out.println("NO");
+
 		}
 	}
 	public static boolean checkParanthesis(String s) {
