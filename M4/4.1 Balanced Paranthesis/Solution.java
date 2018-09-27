@@ -47,7 +47,9 @@ public class Solution {
 			if (ch == '(' || ch == '{' || ch == '[') {
 				obj.push(ch);
 			}
-			else if (ch == ')' && obj.top() == '(') {
+			else {
+				if(obj.isEmpty()) return false;
+				if (ch == ')' && obj.top() == '(') {
 				obj.pop();
 			} else if (ch == '}' && obj.top() == '{') {
 				obj.pop();
@@ -55,6 +57,8 @@ public class Solution {
 				obj.pop();
 			} else return false;
 		}
-		return obj.isEmpty();
+
 	}
+	return obj.isEmpty();
+}
 }
