@@ -16,6 +16,7 @@ class LinkedStackOfStrings {
     }
     /**
      * returns top of the stack.
+     * @return char [description]
      */
     public char top() {
         return first.item;
@@ -39,7 +40,8 @@ class LinkedStackOfStrings {
         first.nextAddress = oldfirst;
     }
     /**
-     * pop method that returns char.
+     *pop method.
+     * @return char [description]
      */
     public char pop() {
         char item = first.item;
@@ -68,7 +70,11 @@ public class Solution {
 
         }
     }
-    public static boolean checkParanthesis(String s) {
+    /**
+     * checking if valid or not.
+     * @param s [description]
+     */
+    public static boolean checkParanthesis(final String s) {
         LinkedStackOfStrings obj = new LinkedStackOfStrings();
         int sLength = s.length();
         for (int i = 0; i < sLength; i++) {
@@ -76,7 +82,9 @@ public class Solution {
             if (ch == '(' || ch == '{' || ch == '[') {
                 obj.push(ch);
             } else {
-                if (obj.isEmpty()) return false;
+                if (obj.isEmpty()) {
+                    return false;
+                }
                 if (ch == ')' && obj.top() == '(') {
                     obj.pop();
                 } else if (ch == '}' && obj.top() == '{') {
