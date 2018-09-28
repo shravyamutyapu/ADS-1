@@ -1,8 +1,17 @@
 import java.util.Scanner;
-
+/**
+ * class.
+ */
 final class Solution {
-
+	/**
+	 * default constructor.
+	 * @return [description]
+	 */
     private Solution() { }
+    /**
+     * main method.
+     * @param args [description]
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
