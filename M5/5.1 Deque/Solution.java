@@ -1,16 +1,8 @@
 import java.util.Scanner;
 
 final class Solution {
-    /**
-    default constructor.
-     **/
-    private Solution() {
 
-    }
-    /**
-     * main function.
-     * @param args String.
-     **/
+    private Solution() { }
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
