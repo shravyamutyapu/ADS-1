@@ -30,6 +30,35 @@ final class AddLargeNumbers {
         return list.toString();
     }
 
+//     public static LinkedList addLargeNumbers(final LinkedList list1,
+//         final LinkedList list2) {
+//         Stack s1 = new Stack();
+//         Stack s2 = new Stack();
+//         int carry = 0;
+//         String sum = "";
+//         int num = 0;
+//
+//         while (!s1.isEmpty() || !s2.isEmpty()) {
+//             num = s1.pop() + s2.pop() + carry;
+//             carry = num / 10;
+//             if (s1.size == 0) {
+//                 sum += (num % 10);
+//                 if (num / 10 != 0) {
+//                     sum += (num / 10);
+//                 }
+//             } else {
+//                 sum += (num % 10);
+//             }
+//         }
+//         String res = "";
+//         for (int i = sum.length() - 1; i >= 0; i--) {
+//             res += sum.charAt(i);
+//         }
+//         LinkedList result = numberToDigits(res);
+//         return result;
+//     }
+// }
+
 }
 /**
  * main class.

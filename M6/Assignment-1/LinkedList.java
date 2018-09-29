@@ -1,6 +1,5 @@
 class LinkedList {
 
-
     private Node first = null;
 
     public class Node {
