@@ -46,8 +46,6 @@ final class AddLargeNumbers {
 //                 if (num / 10 != 0) {
 //                     sum += (num / 10);
 //                 }
-//             } else {
-//                 sum += (num % 10);
 //             }
 //         }
 //         String res = "";
