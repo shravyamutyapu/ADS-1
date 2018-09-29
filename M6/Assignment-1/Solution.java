@@ -10,10 +10,9 @@ final class AddLargeNumbers {
     private AddLargeNumbers() {
     }
     /**
-     * @param number.
+     * @param number [description]
      * @return linkedlist [description]
      */
-
     public static LinkedList numberToDigits(final String number) {
         LinkedList link = new LinkedList();
         for (int i = number.length() - 1; i >= 0; i--) {
