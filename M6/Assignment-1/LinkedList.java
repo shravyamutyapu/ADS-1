@@ -39,11 +39,11 @@ class LinkedList {
 
     public String toString() {
         Node head = first;
-        String storage = "";
+        String val = "";
         while (head != null) {
-            storage = storage + head.item;
+            val = val + head.item;
             head = head.next;
         }
-        return storage;
+        return val;
     }
 }

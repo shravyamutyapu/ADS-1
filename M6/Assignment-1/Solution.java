@@ -40,9 +40,15 @@ final class AddLargeNumbers {
  */
 
 public final class Solution {
-
+    /**
+     * default private constructor.
+     */
 	private Solution() {
 	}
+	/**
+	 * main method.
+	 * @param args [description]
+	 */
 
 	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -51,10 +57,10 @@ public final class Solution {
 		String q = sc.nextLine();
 		switch (input) {
 		case "numberToDigits":
-			LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
-			LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-			System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
-			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
+LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
+LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
+System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
+System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
 			break;
 		// case "addLargeNumbers":
 		//     pDigits = AddLargeNumbers.numberToDigits(p);
