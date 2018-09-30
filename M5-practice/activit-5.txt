@@ -1,0 +1,7 @@
+Step 1 : A stack object is created.
+Step 2 : The first while loop repeats until the queue is empty.
+Step 3 : The elemets that are dequeued from q are added to stack.
+Step 4 : The second while repeats until the stack is empty.
+Step 5 : Elements that are popped from stack are added back to queue.
+
+On the whole the elements are just reversed in the queue.
