@@ -3,14 +3,14 @@ import java.util.Scanner;
 * Solution class.
  */
 final class Solution {
-	/**
-	 * default constructor.
-	 */
-	private Solution() { }
-	/**
-	 * main method.
-	 * @param args [description]
-	 */
+    /**
+     * default constructor.
+     */
+    private Solution() { }
+    /**
+     * main method.
+     * @param args [description]
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
