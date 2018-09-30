@@ -4,7 +4,7 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
-        // scan.nextLine();
+        scan.nextLine();
         for (int i = 0; i < num; i++) {
             Operations obj = new Operations();
             String line = scan.nextLine();
@@ -18,7 +18,7 @@ public class Solution {
             for (int j = 0; j < josephus.length - 1; j++) {
                 System.out.print(josephus[j] + " ");
             }
-            System.out.println(josephus[josephus.length - 1]);
+            // System.out.println(josephus[josephus.length - 1]);
         }
     }
 }
