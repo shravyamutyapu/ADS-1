@@ -18,7 +18,7 @@ public class Solution {
             for (int j = 0; j < josephus.length - 1; j++) {
                 System.out.print(josephus[j] + " ");
             }
-            // System.out.println(josephus[josephus.length - 1]);
+            System.out.println(josephus[josephus.length - 1]);
         }
     }
 }
