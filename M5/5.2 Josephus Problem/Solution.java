@@ -1,7 +1,17 @@
 import java.util.Scanner;
-import java.util.Arrays;
-public class Solution {
-    public static void main(String[] args) {
+/**
+* Solution class.
+ */
+final class Solution {
+	/**
+	 * default constructor.
+	 */
+	private Solution() { }
+	/**
+	 * main method.
+	 * @param args [description]
+	 */
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
         scan.nextLine();
