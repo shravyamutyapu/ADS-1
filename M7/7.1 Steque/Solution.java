@@ -4,12 +4,14 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		LinkedList obj = new LinkedList();
 		int n = Integer.parseInt(sc.nextLine());
+		String str = sc.nextLine();
 		for (int i = 0; i < n; i++) {
+
 			while (sc.hasNextLine())
-				if (sc.nextLine()==" "){
+				if (str ==" "){
 					return;
 				} else {
-					String[] token = sc.nextLine().split(" ");
+					String[] token = str.split(" ");
 					switch (token[0]) {
 					case "push":
 						obj.pushAtStart(Integer.parseInt(token[1]));
