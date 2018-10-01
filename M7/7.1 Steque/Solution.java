@@ -12,6 +12,7 @@ class Solution {
             while (sc.hasNextLine()){
                 String str = sc.nextLine();
                 if (str ==" "){
+                    System.out.println(" ");
                     return;
                 } else {
                     String[] token = str.split(" ");
