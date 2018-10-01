@@ -9,6 +9,17 @@ final class Solution {
     private Solution() { }
     /**
      * main method.
+     * In this method we take the input from the user.
+     * An object for LinkedList is created.
+     * Then the items are pushed into the stack and
+     * the required operations are made.
+     * We use switch case in the main method to determine
+     *  the input and the actions.
+     *  For the push we call PushAtStart with the parameter item.
+     *  For enqueue we call PushAtEnd with the parameter item.
+     *  For pop we call popAt Start.
+     *  For every action we call the displayAll method,
+     *  So that the output is printed all the times.
      * @param args [description]
      */
     public static void main(final String[] args) {

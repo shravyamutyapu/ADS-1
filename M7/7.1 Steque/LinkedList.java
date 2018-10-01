@@ -15,8 +15,8 @@ class LinkedList {
         return first == null;
     }
     /**
-     * complexity 1.
-     * @param item int.
+    * This method is used to push an item to the stack.
+     *Time complexity is 1 as only one item is pushed into the stack at a time.     * @param item int.
      **/
     public void pushAtStart(final int item) {
         if (first == null) {
@@ -33,7 +33,8 @@ class LinkedList {
         length++;
     }
      /**
-     * complexity 1.
+      * This method is used to push an item to the stack.
+     *Time complexity is 1 as only one item is pushed into the stack at a time.
      * @param item int.
      **/
     public void pushAtEnd(final int item) {
@@ -53,7 +54,8 @@ class LinkedList {
         length++;
     }
      /**
-     * complexity 1.
+      * this is used to pop an item from the stack.
+     * Time complexity is 1 as only one item is popped at a time.
      * @param item int.
      **/
     public void popAtStart() {
@@ -62,27 +64,29 @@ class LinkedList {
             length--;
         }
     }
-    public void popAtEnd() {
-        if (last != null) {
-            Node temp = first;
-            while (temp.next.next != null) {
+    // /**     **/
+    // public void popAtEnd() {
+    //     if (last != null) {
+    //         Node temp = first;
+    //         while (temp.next.next != null) {
 
-                temp = temp.next;
-            }
-            temp.next = null;
-            last = temp;
-            length--;
-        }
-    }
+    //             temp = temp.next;
+    //         }
+    //         temp.next = null;
+    //         last = temp;
+    //         length--;
+    //     }
+    // }
 
-    public int top() {
-        return first.item;
-    }
-    public int size() {
-        return length;
-    }
+    // public int top() {
+    //     return first.item;
+    // }
+    // public int size() {
+    //     return length;
+    // }
      /**
-     * complexity N .
+      * This method prints all the elements in the stack.
+     * The complexity of the method is N as this method prints all the digits.
      * @param item int.
      **/
     public void displayAll() {
