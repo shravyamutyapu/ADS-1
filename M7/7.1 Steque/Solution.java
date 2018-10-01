@@ -11,10 +11,10 @@ class Solution {
 
             while (sc.hasNextLine()){
                 String str = sc.nextLine();
-                // if (str ==" "){
-                //     System.out.printbln(" ");
-                //     return;
-                // } else {
+                if (str.equals("")){
+                    System.out.println(" ");
+                    return;
+                } else {
                     String[] token = str.split(" ");
                     switch (token[0]) {
                     case "push":
@@ -33,11 +33,12 @@ class Solution {
                         //System.out.println(obj.displayAll());
                         break;
                     }
-                    if(token[0].equals("")){
-                        break;
-                    }
+                    // if(token[0].equals("")){
+                    //     System.out.println();
+                    //     break;
+                    // }
                 }
         }
     }
 }
-//}
+}
