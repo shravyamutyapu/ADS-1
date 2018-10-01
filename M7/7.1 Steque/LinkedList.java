@@ -67,7 +67,7 @@ class LinkedList {
     public int size() {
         return length;
     }
-    public void displayAll() {
+    public String displayAll() {
         if (length != 0) {
             String s = "";
             Node temp = first;
@@ -78,10 +78,10 @@ class LinkedList {
             if(length == 1){
                 System.out.println(s);
             }
-            System.out.println(s.substring(0, s.length() - 2));
+            return s.substring(0, s.length() - 2);
         }
         else{
-        System.out.println("Steque is empty.");
+        return "Steque is empty.";
     }
     }
 }
