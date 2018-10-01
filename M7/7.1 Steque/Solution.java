@@ -31,13 +31,15 @@ class Solution {
                         obj.displayAll();
                         //System.out.println(obj.displayAll());
                         break;
+                    default:
+                    break;
                     }
                     // if(token[0].equals("")){
                     //     System.out.println();
                     //     break;
                     // }
                 }
-                n--;
+
         }
     }
 }

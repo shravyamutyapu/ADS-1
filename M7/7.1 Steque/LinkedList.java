@@ -29,11 +29,12 @@ class LinkedList {
         length++;
     }
     public void pushAtEnd(final int item) {
-        if (last == null) {
-            last = new Node();
-            last.item = item;
-            last.next = null;
-            first = last;
+        if (last == null || first == null) {
+        //     last = new Node();
+        //     last.item = item;
+        //     last.next = null;
+        //     first = last;
+            pushAtStart(item);
         }   else {
             Node temp = last;
             last = new Node();
