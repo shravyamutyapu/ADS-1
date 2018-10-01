@@ -2,15 +2,23 @@ import java.util.Scanner;
 /**
  * Solution class contains main method.
  */
-class Solution {
-    public static void main(String[] args) {
+final class Solution {
+    /**
+     * default private constructor.
+     */
+    private Solution() { }
+    /**
+     * main method.
+     * @param args [description]
+     */
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < n; i++) {
-        LinkedList obj = new LinkedList();
-            while (sc.hasNextLine()){
+            LinkedList obj = new LinkedList();
+            while (sc.hasNextLine()) {
                 String str = sc.nextLine();
-                if (str.equals("")){
+                if (str.equals("")) {
                     System.out.println("");
                     break;
                 } else {
@@ -40,7 +48,7 @@ class Solution {
                     // }
                 }
 
+            }
         }
     }
-}
 }
