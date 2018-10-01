@@ -23,12 +23,7 @@ class Solution {
                         break;
                     case "pop":
                         obj.popAtStart();
-                        if(obj.displayAll() !=null){
-                            obj.displayAll();
-                        }
-                        else{
-                        System.out.println("Steque is empty.");
-                    }
+                        obj.displayAll();
                         //System.out.println(obj.displayAll());
                         break;
                     case "enqueue":
@@ -42,6 +37,7 @@ class Solution {
                     //     break;
                     // }
                 }
+                n--;
         }
     }
 }
