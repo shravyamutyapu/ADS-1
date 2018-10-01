@@ -8,7 +8,6 @@ class Solution {
         int n = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < n; i++) {
         LinkedList obj = new LinkedList();
-
             while (sc.hasNextLine()){
                 String str = sc.nextLine();
                 if (str.equals("")){
