@@ -13,7 +13,7 @@ class Solution {
                 String str = sc.nextLine();
                 if (str.equals("")){
                     System.out.println(" ");
-                    return;
+                    break;
                 } else {
                     String[] token = str.split(" ");
                     switch (token[0]) {
