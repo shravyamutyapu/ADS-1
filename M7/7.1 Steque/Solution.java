@@ -10,10 +10,10 @@ class Solution {
         LinkedList obj = new LinkedList();
             while (sc.hasNextLine()){
                 String str = sc.nextLine();
-                // if (str.equals("")){
-                //     System.out.println(" ");
-                //     break;
-                // } else {
+                if (str.equals("")){
+                    System.out.println("");
+                    break;
+                } else {
                     String[] token = str.split(" ");
                     switch (token[0]) {
                     case "push":
@@ -32,15 +32,15 @@ class Solution {
                         //System.out.println(obj.displayAll());
                         break;
                     default:
-                    break;
-                    }
-                    if(token[0].equals("")){
-                        System.out.println();
                         break;
                     }
+                    // if(token[0].equals("")){
+                    //     System.out.println();
+                    //     break;
+                    // }
                 }
 
         }
     }
 }
-//}
+}
