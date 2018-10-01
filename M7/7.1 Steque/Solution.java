@@ -33,6 +33,9 @@ class Solution {
                         //System.out.println(obj.displayAll());
                         break;
                     }
+                    if(token[0].equals("")){
+                        break;
+                    }
                 }
         }
     }
