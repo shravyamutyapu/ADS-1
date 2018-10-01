@@ -5,9 +5,9 @@ import java.util.Scanner;
 class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinkedList obj = new LinkedList();
         int n = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < n; i++) {
+        LinkedList obj = new LinkedList();
 
             while (sc.hasNextLine()){
                 String str = sc.nextLine();
