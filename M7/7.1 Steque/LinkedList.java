@@ -14,6 +14,10 @@ class LinkedList {
     public boolean isEmpty() {
         return first == null;
     }
+    /**
+     * complexity 1.
+     * @param item int.
+     **/
     public void pushAtStart(final int item) {
         if (first == null) {
             first = new Node();
@@ -28,6 +32,10 @@ class LinkedList {
         }
         length++;
     }
+     /**
+     * complexity 1.
+     * @param item int.
+     **/
     public void pushAtEnd(final int item) {
         if (last == null || first == null) {
         //     last = new Node();
@@ -44,6 +52,10 @@ class LinkedList {
         }
         length++;
     }
+     /**
+     * complexity 1.
+     * @param item int.
+     **/
     public void popAtStart() {
         if (first != null) {
             first = first.next;
@@ -62,12 +74,17 @@ class LinkedList {
             length--;
         }
     }
+
     public int top() {
         return first.item;
     }
     public int size() {
         return length;
     }
+     /**
+     * complexity N .
+     * @param item int.
+     **/
     public void displayAll() {
         if (length != 0) {
             String s = "";
