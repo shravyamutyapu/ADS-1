@@ -75,9 +75,9 @@ class LinkedList {
                 s += temp.item + ", ";
                 temp = temp.next;
             }
-            if(length == 1){
-                System.out.println(s);
-            }
+            // if(length == 1){
+            //     System.out.println(s);
+            // }
             System.out.println(s.substring(0, s.length() - 2));
         }
         else{
