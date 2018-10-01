@@ -4,10 +4,10 @@ class Solution {
 		Scanner sc = new Scanner(System.in);
 		LinkedList obj = new LinkedList();
 		int n = Integer.parseInt(sc.nextLine());
-		String str = sc.nextLine();
 		for (int i = 0; i < n; i++) {
 
-			while (sc.hasNextLine())
+			while (sc.hasNextLine()){
+				String str = sc.nextLine();
 				if (str ==" "){
 					return;
 				} else {
@@ -29,4 +29,5 @@ class Solution {
 				}
 		}
 	}
+}
 }
