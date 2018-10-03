@@ -1,5 +1,19 @@
 import java.util.Scanner;
-class Solution {
+/**
+Solution class.
+ **/
+final class Solution {
+    /**
+     Default constructor.
+     **/
+    private Solution() {
+
+    }
+    /**
+     * main function.
+     * This method handles the input cases.
+     * @param args String type.
+     **/
     public static void main(final String[] args) {
         Mergesort merge = new Mergesort();
         Scanner sc = new Scanner(System.in);
