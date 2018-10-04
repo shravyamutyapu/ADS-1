@@ -1,16 +1,26 @@
 import java.util.*;
-
-class Solution{
+/**
+ * Solution class.
+ */
+final class Solution {
+    /**
+     * private constructor.
+     */
+    private Solution() { }
+    /**
+     * main method.
+     * @param args [description]
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LinkedList linkobj = new LinkedList();
-        while(sc.hasNextLine()){
+        while (sc.hasNextLine()) {
             String[] line = sc.nextLine().split(" ");
             switch (line[0]) {
-                case "insertAt":
-                try{
+            case "insertAt":
+                try {
                     linkobj.insertAt(Integer.parseInt(line[1]), new Node(line[2]));
-                linkobj.display();
+                    linkobj.display();
                 }
 
                 catch (Exception e) {
@@ -18,13 +28,13 @@ class Solution{
 
                 }
                 break;
-                case "reverse":
-                try{
+            case "reverse":
+                try {
                     linkobj.reverse();
-                linkobj.display();
+                    linkobj.display();
                 }
 
-                catch(Exception e){
+                catch (Exception e) {
                     System.out.println("No elements to reverse.");
                 }
                 break;
