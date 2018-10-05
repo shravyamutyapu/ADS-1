@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:1:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:1:12: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:2:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\github\MSIT\ADS-1\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:2:33: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 7 errors.

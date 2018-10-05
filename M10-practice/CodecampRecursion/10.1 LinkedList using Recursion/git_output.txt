@@ -1,0 +1,3 @@
+[master f593f59] "ads1_m10_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: unable to access 'https://github.com/kteja95/6058_ADS1.git/': Could not resolve proxy: proxy.msitprogram.net

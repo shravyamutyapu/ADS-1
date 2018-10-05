@@ -29,25 +29,25 @@ public class Table {
      * Finds which value is lower.
      *
      * @param      arr   The arr
-     * @param      ind1  The ind 1
-     * @param      ind2  The ind 2
+     * @param      index1  The ind 1
+     * @param      index2  The ind 2
      *
      * @return     { description_of_the_return_value }
      */
-    public boolean more(Comparable[] arr, int ind1, int ind2) {
-        return arr[ind1].compareTo(arr[ind2]) > 0;
+    public boolean more(Comparable[] arr, int index1, int index2) {
+        return arr[index1].compareTo(arr[index2]) > 0;
     }
     /**
      * Swaps the values in the array.
      *
      * @param      a     Team array
-     * @param      ind1  The ind 1
-     * @param      ind2  The ind 2
+     * @param      index1  The index 1
+     * @param      index2  The index 2
      */
-    public void swap(Comparable[] a, int ind1, int ind2) {
-        Comparable temp = a[ind1];
-        a[ind1] = a[ind2];
-        a[ind2] = temp;
+    public void swap(Comparable[] a, int index1, int index2) {
+        Comparable temp = a[index1];
+        a[index1] = a[index2];
+        a[index2] = temp;
     }
     /**
      * Finds the Leaderboard and returns leaderboard string.
