@@ -10,7 +10,10 @@ class Student implements Comparable<Student>{
 		String[] studDetails = arr.split(",");
 		this.studentName = studDetails[0];
 		this.dateOfBirth = studDetails[1];
-
+        //int[] details = studDetails[1].split("-");
+        // int day = details[0];
+        // int month = details[1];
+        // int year = details[2];
 		this.subject1 = Integer.parseInt(studDetails[2]);
 		this.subject2 = Integer.parseInt(studDetails[3]);
 		this.subject3 = Integer.parseInt(studDetails[4]);

@@ -7,7 +7,7 @@ final class Solution{
 	 * default constructor.
 	 */
 	private Solution(){ }
-
+    /**method for allotment.**/
 	public static Student[] seatsFilled (final Student[] stud,
 	                                     final int vacant,
 	                                     final int noreserve,
@@ -63,7 +63,7 @@ final class Solution{
   		int bcVacancy = sc.nextInt();
   		int scVacancy = sc.nextInt();
   		int stVacancy = sc.nextInt();
-  	Student[] stdobj = new Student[lines];
+  	Student[] stdobj = new Student[lines+1];
 
 		while(sc.hasNext()){
   			//String[] line = sc.nextLine().split(",");
