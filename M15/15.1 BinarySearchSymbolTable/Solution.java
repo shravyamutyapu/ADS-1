@@ -1,7 +1,16 @@
 import java.util.Scanner;
-
+/**
+ * Solution class.
+ */
 final class Solution {
+	/**
+	 * private default constructor.
+	 */
 	private Solution() { }
+	/**
+	 * main method .
+	 * @param args [argument]
+	 */
 	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String[] keys = sc.nextLine().split(" ");
