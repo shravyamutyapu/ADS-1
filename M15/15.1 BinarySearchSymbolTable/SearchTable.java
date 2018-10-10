@@ -111,14 +111,14 @@ class SearchTable {
      */
     public void keys() {
         for (int i = 0; i < size; i++) {
-            System.out.println(keys[i] + "" + values[i]);
+            System.out.println(keys[i] + " " + values[i]);
         }
     }
     /**
      * @return max element[description]
      */
     public String max() {
-        return keys[size];
+        return keys[size - 1];
     }
     /**
      * deletes the min element.
