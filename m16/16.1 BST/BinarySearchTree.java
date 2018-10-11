@@ -1,9 +1,18 @@
+/**
+ * Binary Search Tree class .
+ */
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	Node head;
 	int size;
-	BinarySearchTree() {
-
-	}
+	/**
+	 * Binary Search Tree method.
+	 */
+	BinarySearchTree() { }
+	/**
+	 *
+	 * @param N [description]
+	 * @param v [description]
+	 */
 	private class Node {
 		private BookDetails key;
 		private Value value;
@@ -11,51 +20,58 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		private Node right;
 	}
 	// time complexity is O (log N)
-	public void put(BookDetails k, Value v) {
-		if (k == null) {
+	/**
+	 * @brief [brief description]
+	 * @details [long description]
+	 *
+	 * @param bk [description]
+	 * @param val [description]
+	 */
+	public void put(BookDetails bk, Value val) {
+		if (bk == null) {
 			System.out.println("key is null");
 		}
 
-		head = put(head, k, v);
+		head = put(head, bk, val);
 	}
 	// time complexity is O (log N)
-	public Node put(Node head, BookDetails k, Value v) {
+	public Node put(Node head, BookDetails bk, Value val) {
 		if (head == null) {
 			Node n = new Node();
-			n.key = k;
-			n.value = v;
+			n.key = bk;
+			n.value = val;
 			n.left = null;
 			n.right = null;
 			head = n;
 			size++;
 		}
-		int index = k.compareTo(head.key);
+		int index = bk.compareTo(head.key);
 		if (index < 0) {
-			head.left = put(head.left, k, v);
+			head.left = put(head.left, bk, val);
 		} else if (index > 0) {
-			head.right = put(head.right, k, v);
+			head.right = put(head.right, bk, val);
 		} else {
-			head.value = v;
+			head.value = val;
 		}
 		return head;
 	}
 	// time complexity is O (log N)
-	public Value get(BookDetails k) {
-		return get(head, k);
+	public Value get(BookDetails bk) {
+		return get(head, bk);
 	}
 	// time complexity is O (log N)
-	public Value get(Node head, BookDetails k) {
-		if (k == null) {
+	public Value get(Node head, BookDetails bk) {
+		if (bk == null) {
 			System.out.println("key is null");
 		}
 		if (head == null) {
 			return null;
 		}
-		int index = k.compareTo(head.key);
+		int index = bk.compareTo(head.key);
 		if (index < 0) {
-			return get(head.left, k);
+			return get(head.left, bk);
 		} else if (index > 0) {
-			return get(head.right, k);
+			return get(head.right, bk);
 		} else {
 			return head.value;
 		}
