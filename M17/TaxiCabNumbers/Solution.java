@@ -6,50 +6,44 @@ class CubeSum implements Comparable<CubeSum> {
     /**
      * sum method.
      */
-    long sum;
+    private long sum;
     /**
      * int i.
      */
-    int i;
+    private int i;
     /**
      int j.
      */
-    int j;
-/**
- * this methods is used to cube the digits.
- * @param i int.
- * @param j int.
- *
- * @return [description]
- */
+    private int j;
+    /**
+     * this methods is used to cube the digits.
+     * @param i int.
+     * @param j int.
+     */
     public CubeSum(int i, int j) {
         this.sum = i * i * i + j * j * j;
         this.i = i;
         this.j = j;
     }
-/**
- it is used to compare the elements.
- * @param that Cubesum.
- * @return int.
- */
+    /**
+     it is used to compare the elements.
+     * @param that Cubesum.
+     * @return int.
+     */
     public int compareTo(CubeSum that) {
         if (this.sum < that.sum) return -1;
         if (this.sum > that.sum) return +1;
         return 0;
     }
-/**
- * String to string method is used to print the elements
- * @return sum.
- */
+    /**
+     * String to string method is used to print the elements
+     * @return sum.
+     */
     public String toString() {
         return sum + "";
     }
 
-}
-/**
- * class Solution.
- */
-class Solution {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
@@ -88,5 +82,6 @@ class Solution {
                 pq.insert(new CubeSum(current.i, current.j + 1));
         }
     }
-
 }
+
+
