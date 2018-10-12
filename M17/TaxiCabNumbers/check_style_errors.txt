@@ -1,18 +1,11 @@
 Starting audit...
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:23:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:23:20: Parameter i should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:23:24: 'i' hides a field. [HiddenField]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:23:27: Parameter j should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:23:31: 'j' hides a field. [HiddenField]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:33:26: Parameter that should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:34: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:35: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:38: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:47:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:47:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:49:13: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:50:13: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:51:17: '1000' is a magic number. [MagicNumber]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:81: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:7:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:9:13: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:10:13: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:11:17: '1000' is a magic number. [MagicNumber]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:41: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 8 errors.
