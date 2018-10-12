@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:4:24: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:13:48: Expected @param tag for 'args'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 5 errors.
