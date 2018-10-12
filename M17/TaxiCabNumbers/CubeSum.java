@@ -6,7 +6,6 @@ class CubeSum implements Comparable<CubeSum> {
      * sum method.
      */
     long sum;
-
     /**
      * int i.
      */

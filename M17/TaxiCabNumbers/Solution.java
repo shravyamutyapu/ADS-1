@@ -11,20 +11,17 @@ final class Solution {
      * main method.
      * @param args [description]
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int n1 = sc.nextInt();
         int m = sc.nextInt();
         final int th = 1000;
         int n = th;
-
-
         // initialize priority queue
         MinPQ<CubeSum> pq = new MinPQ<CubeSum>();
         for (int i = 1; i <= n; i++) {
             pq.insert(new CubeSum(i, i));
         }
-
         int pair = 1;
         int nth = 0;
 
