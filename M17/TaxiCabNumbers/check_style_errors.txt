@@ -1,11 +1,5 @@
 Starting audit...
 [ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:7:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:9:13: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:10:13: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:11:17: '1000' is a magic number. [MagicNumber]
-[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:41: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\github\MSIT\ADS-1\M17\TaxiCabNumbers\Solution.java:14:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 2 errors.
