@@ -45,20 +45,20 @@ public final class Solution {
 
             }
 
-            if (minpq.size() == maxpq.size()) {
-                median = (minpq.min() + maxpq.max()) / 2;
-                System.out.println(median);
-            }
+            // if (minpq.size() == maxpq.size()) {
+            //     median = (minpq.min() + maxpq.max()) / 2;
+            //     System.out.println(median);
+            // }
 
             if (maxpq.size() > minpq.size()) {
                 median = maxpq.max();
                 System.out.println(median);
             }
 
-            // if (minpq.size() > maxpq.size()) {
-            //     median = minpq.min();
-            //     System.out.println(median);
-            // }
+            if (minpq.size() > maxpq.size()) {
+                median = minpq.min();
+                System.out.println(median);
+            }
 
         }
 
