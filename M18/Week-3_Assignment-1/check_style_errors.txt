@@ -1,24 +1,7 @@
 Starting audit...
 [ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:2:41: '>' is followed by an illegal character. [GenericWhitespace]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:2:41: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:3:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:4:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:6:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:6:15: Parameter name should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:6:28: Parameter diff should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:6:40: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:10:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:13:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:16:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:16:33: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:17:33: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:17:34: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:17:37: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:17:38: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:19:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:18:15: Parameter name should be final. [FinalParameters]
+[ERROR] D:\github\MSIT\ADS-1\M18\Week-3_Assignment-1\Stock.java:18:28: Parameter diff should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 4 errors.
