@@ -2,12 +2,12 @@ class Book<Key extends Comparable<Key>, Value> {
 	String author;
 	String name;
 	Float price;
-    /**
-     * parameterised constructor.
-     * @param name [description]
-     * @param author [description]
-     * @param price [description]
-     */
+	/**
+	 * parameterised constructor.
+	 * @param name [description]
+	 * @param author [description]
+	 * @param price [description]
+	 */
 	Book(String name, String author, Float price) {
 		this.name = name;
 		this.author = author;
@@ -30,6 +30,9 @@ class Book<Key extends Comparable<Key>, Value> {
 	}
 	public void setPrice(Float price) {
 		this.author = author;
+	}
+	public String tostring() {
+		return this.getName() + ", " + this.getAuthor() + ", " + this.getPrice();
 	}
 	public int compareTo(Book that) {
 		if (this.getName().compareTo(that.getName()) > 0) {
