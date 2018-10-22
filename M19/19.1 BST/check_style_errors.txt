@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:26:46: '3' is a magic number. [MagicNumber]
+[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:27:47: '4' is a magic number. [MagicNumber]
+[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:31:46: '3' is a magic number. [MagicNumber]
+[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:41:46: '3' is a magic number. [MagicNumber]
+[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:45:46: '3' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 6 errors.
