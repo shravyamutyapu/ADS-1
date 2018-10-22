@@ -1,12 +1,2 @@
 Starting audit...
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:26: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:30: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:40: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:41: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:44: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:45: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\github\MSIT\ADS-1\M19\19.1 BST\Solution.java:48: Line is longer than 80 characters (found 92). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
