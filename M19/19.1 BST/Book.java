@@ -32,7 +32,7 @@ class Book<Key extends Comparable<Key>, Value> {
 		this.author = author;
 	}
 	public String tostring() {
-		return this.getName() + ", " + this.getAuthor() + ", " + this.getPrice();
+		return getName() + ", " + getAuthor() + ", " + getPrice();
 	}
 	public int compareTo(Book that) {
 		if (this.getName().compareTo(that.getName()) > 0) {
