@@ -31,7 +31,7 @@ class Book<Key extends Comparable<Key>, Value> {
 	public void setPrice(Float price) {
 		this.author = author;
 	}
-	public String tostring() {
+	public String toString() {
 		return getName() + ", " + getAuthor() + ", " + getPrice();
 	}
 	public int compareTo(Book that) {
