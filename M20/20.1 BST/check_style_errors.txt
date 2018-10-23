@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] D:\github\MSIT\ADS-1\M20\20.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\github\MSIT\ADS-1\M20\20.1 BST\Solution.java:26: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.
