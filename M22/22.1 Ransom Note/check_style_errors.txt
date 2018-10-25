@@ -2,12 +2,5 @@ Starting audit...
 [ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:4: Type Javadoc comment is missing @param <Key> tag. [JavadocType]
 [ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:4: Type Javadoc comment is missing @param <Value> tag. [JavadocType]
 [ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:33:45: 'm' hides a field. [HiddenField]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:36:36: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:59:8: Unused @param tag for 'Key'. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:62:32: Expected @param tag for 'key'. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:98: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:112: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:132: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:158: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 3 errors.

@@ -1,5 +1,5 @@
 /**
- * class.
+ * solution class.
  */
 public class SeparateChainingHashST<Key, Value> {
     /**
@@ -33,7 +33,7 @@ public class SeparateChainingHashST<Key, Value> {
     public SeparateChainingHashST(final int m) {
         this.m = m;
         st = (SequentialSearchST<Key, Value>[]) new SequentialSearchST[m];
-        for (int i = 0; i < m; i++){
+        for (int i = 0; i < m; i++) {
             st[i] = new SequentialSearchST<Key, Value>();
         }
     }
@@ -56,7 +56,7 @@ public class SeparateChainingHashST<Key, Value> {
     // hash value between 0 and m-1
     /**
      * hash method.
-     * @param Key [description]
+     * @param key [description]
      * @return int[description]
      */
     private int hash(final Key key) {
@@ -89,14 +89,16 @@ public class SeparateChainingHashST<Key, Value> {
     /**
      * Returns true if this symbol table contains the specified key.
      *
-     * @param  key the key
+     * @param key key value.
      * @return {@code true} if this symbol table contains {@code key};
      *         {@code false} otherwise
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public boolean contains(final Key key) {
-if (key == null) throw
-    new IllegalArgumentException("argument to contains() is null");
+    if (key == null) {
+        throw new
+        IllegalArgumentException("argument to contains() is null");
+    }
         return get(key) != null;
     }
 
@@ -109,8 +111,10 @@ if (key == null) throw
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public Value get(final Key key) {
-        if (key == null) throw
-    new IllegalArgumentException("argument to get() is null");
+        if (key == null) {
+            throw
+        new IllegalArgumentException("argument to get() is null");
+    }
         int i = hash(key);
         return st[i].get(key);
     }
@@ -129,8 +133,10 @@ if (key == null) throw
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public void put(final Key key, final Value val) {
-        if (key == null) throw
+        if (key == null) {
+            throw
             new IllegalArgumentException("first argument to put() is null");
+        }
         if (val == null) {
             delete(key);
             return;
@@ -155,9 +161,10 @@ if (key == null) throw
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public void delete(final Key key) {
-if (key == null) throw
+if (key == null) {
+    throw
     new IllegalArgumentException("argument to delete() is null");
-
+    }
         int i = hash(key);
         if (st[i].contains(key)) {
             n--;
