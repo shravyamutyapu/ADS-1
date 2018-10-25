@@ -128,7 +128,7 @@ if (key == null) throw
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void put(Key key, Value val) {
+    public void put(final Key key, final Value val) {
         if (key == null) throw
             new IllegalArgumentException("first argument to put() is null");
         if (val == null) {
@@ -140,7 +140,7 @@ if (key == null) throw
         // if (n >= 10*m) resize(2*m);
 
         int i = hash(key);
-        if (!st[i].contains(key)){
+        if (!st[i].contains(key)) {
             n++;
         }
         st[i].put(key, val);
@@ -154,12 +154,14 @@ if (key == null) throw
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void delete(Key key) {
+    public void delete(final Key key) {
 if (key == null) throw
     new IllegalArgumentException("argument to delete() is null");
 
         int i = hash(key);
-        if (st[i].contains(key)) n--;
+        if (st[i].contains(key)) {
+            n--;
+        }
         st[i].delete(key);
 
         // halve table size if average length of list <= 2
@@ -178,12 +180,15 @@ if (key == null) throw
 
 
     // /**
-    //  * Unit tests the {@code SeparateChainingHashST} data type.
+    //  * Unit tests the {@code SeparateChainingHashST}
+    // data type.
     //  *
     //  * @param args the command-line arguments
     //  */
     // public static void main(String[] args) {
-    //     SeparateChainingHashST<String, Integer> st = new SeparateChainingHashST<String, Integer>();
+    //     SeparateChainingHashST
+    //<String, Integer> st = new
+    //SeparateChainingHashST<String, Integer>();
     //     for (int i = 0; !StdIn.isEmpty(); i++) {
     //         String key = StdIn.readString();
     //         st.put(key, i);
