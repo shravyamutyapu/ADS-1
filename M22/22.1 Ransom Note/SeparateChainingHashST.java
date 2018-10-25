@@ -15,7 +15,7 @@ public class SeparateChainingHashST<Key, Value> {
     /**
      * private value M .
      */
-    int m;
+    private int m;
     /**
      * array.
      * // array of linked-list symbol tables.
@@ -33,7 +33,7 @@ public class SeparateChainingHashST<Key, Value> {
      * @param m the initial number of chains
      */
     public SeparateChainingHashST(final int m) {
-        this.m = m;
+       // this.m = m;
         st = (SequentialSearchST<Key, Value>[]) new SequentialSearchST[m];
         for (int i = 0; i < m; i++) {
             st[i] = new SequentialSearchST<Key, Value>();

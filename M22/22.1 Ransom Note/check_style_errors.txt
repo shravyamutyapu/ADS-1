@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:18:9: Variable 'm' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:35:45: 'm' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
