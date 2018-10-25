@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:33:8: Unused @param tag for 'm'. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M22\22.1 Ransom Note\SeparateChainingHashST.java:35:45: Expected @param tag for 'm1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.

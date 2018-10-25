@@ -30,10 +30,10 @@ public class SeparateChainingHashST<Key, Value> {
 
     /**
      * Initializes an empty symbol table with {@code m} chains.
-     * @param m the initial number of chains
+     * @param m1 the initial number of chains
      */
     public SeparateChainingHashST(final int m1) {
-       // this.m = m;
+       this.m = m1;
         st = (SequentialSearchST<Key, Value>[]) new SequentialSearchST[m1];
         for (int i = 0; i < m1; i++) {
             st[i] = new SequentialSearchST<Key, Value>();
