@@ -1,0 +1,1 @@
+Yes, it is legal . But, it leads to poor performance of the hash function and results as the worst case scenario . Time complexity is N here . All the keys are in the same hash value i.e 17 .
