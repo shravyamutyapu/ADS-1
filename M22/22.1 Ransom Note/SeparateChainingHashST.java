@@ -1,9 +1,19 @@
-import java.util.*;
 public class SeparateChainingHashST<Key, Value> {
+    /**
+     * private variable.
+     */
     private static final int INIT_CAPACITY = 4;
-
-    private int n;                                // number of key-value pairs
-    private int m;                                // hash table size
+    /**
+     * private value N .
+     */
+    private int n;
+    /**
+     * private value M .
+     */                               // number of key-value pairs
+    private int m;
+    /**
+     * array.
+     */
     private SequentialSearchST<Key, Value>[] st;  // array of linked-list symbol tables
 
 
