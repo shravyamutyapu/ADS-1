@@ -31,7 +31,8 @@ public final class Solution {
                     System.out.print("No");
                     return;
                 } else {
-                	chaining.put(ransomeNote[i], chaining.get(ransomeNote[i]) - 1);
+                    chaining.put(
+       ransomeNote[i], chaining.get(ransomeNote[i]) - 1);
                 }
             } else {
                 System.out.print("No");

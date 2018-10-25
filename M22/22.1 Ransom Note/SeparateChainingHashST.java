@@ -1,5 +1,7 @@
 /**
  * solution class.
+ * @param <Key> tag.
+ * @param <Value> tag.
  */
 public class SeparateChainingHashST<Key, Value> {
     /**
@@ -13,7 +15,7 @@ public class SeparateChainingHashST<Key, Value> {
     /**
      * private value M .
      */
-    private int m;
+    int m;
     /**
      * array.
      * // array of linked-list symbol tables.
