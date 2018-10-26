@@ -1,0 +1,18 @@
+Suppose that the keys A through G , with the hash values given below, are inserted in some order into an initially empty table of size 7 using a linear-probing table (with no resizing for this problem). Which of the following could not possibly result from inserting these keys?
+
+ KEYS : A B C D E F G
+ HASH : 2 0 0 4 4 4 1
+
+Solution :
+After performing insertion operations it would result the following sequence :
+        B C A G D E F
+
+the above array does not occur in the given options :
+a) E F G A C B D
+b) C E B G F D A
+c) B D F A C E G
+d) C G B A D E F
+e) F G B D A C E
+f) G E C A D B F
+
+therefore none of the above options satisfy the hashing technique shown in the question.
