@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Clark
 Rivest
@@ -9,16 +9,16 @@ Alice
 Bob
 John
 Your Output: 
-Clark
-Rivest
-Abegg
-Fred
-Wayne
-Alice
-Bob
-John
+Student@7f63425a
+Student@36d64342
+Student@39ba5a14
+Student@511baa65
+Student@340f438e
+Student@30c7da1e
+Student@5b464ce8
+Student@57829d67
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 100.1
 100.0
@@ -34,19 +34,19 @@ Expected Output:
 45.4
 99.3
 Your Output: 
-100.1
-100.0
-76.4
-78.2
-65.7
-85.6
-98.3
-88.3
-56.7
-65.7
-11.2
-45.4
-99.3
+Student@7f63425a
+Student@36d64342
+Student@39ba5a14
+Student@511baa65
+Student@340f438e
+Student@30c7da1e
+Student@5b464ce8
+Student@57829d67
+Student@19dfb72a
+Student@340f438e
+Student@17c68925
+Student@7e0ea639
+Student@3d24753a
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -68,19 +68,23 @@ Student doesn't exists...
 Student doesn't exists...
 Student doesn't exists...
 Your Output: 
-Knuth
-100.0
-Clark
-78.2
-Abegg
-85.6
-Wayne
-88.3
-John
-65.7
-Hank
-13.3
-Jeannette Caines
+Student@7f63425a
+Student@36d64342
+Student@39ba5a14
+Student@511baa65
+Student@340f438e
+Student@30c7da1e
+Student@5b464ce8
+Student@57829d67
+Student@19dfb72a
+Student@340f438e
+Student@17c68925
+Student@7e0ea639
+Student@3d24753a
+Student doesn't exists...
+Student doesn't exists...
+Student doesn't exists...
+Student doesn't exists...
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -585,501 +589,504 @@ Robert Macfarlane
 John Hale
 53.79
 Your Output: 
-7.213
-Michael Hale
-59.62
-Bradley Jackson
-57.53
-Madhur Jaffrey
-86.65
-Ruth H. Jacobs
-90.69
-74.62
-62.17
-Richard Jacoby
-Kady MacDonald Denton
-Kate Jacoby
-Charles B. Macdonald
-Laura Holmes Haddad
-36.4
-Debra W. Haffner
-98.13
-17.86
-21.24
-76.56
-50.75
-63.33
-35.14
-Kathryn Jacobi
-Brad Haddin
-Gerry Hadden
-Kathryn Ma
-30.97
-T. T. Macan
-Simon Jacobson
-Carla Jablonski
-24.51
-99.46
-27.87
-84.78
-Sammy Hagar
-87.26
-53.48
-Taylor Hackford
-Michael Hale
-Taylor Hackford
-36.24
-Katharina Hagena
-35.6
-Gracie MacGregor
-David Halberstam
-Michael Haag
-51.43
-Chuck Hagel
-87.16
-Sophie Jaff
-62.17
-6.627
-Katharina Hagena
-92.85
-Colin Jack
-88.48
-Margaret Peterson Haddix
-Bethany Hagen
-Aparna Jain
-Pamela Haag
-H3CZ
-18.28
-Olivia Mace
-45.32
-68.0
-35.6
-79.87
-Debra W. Haffner
-40.95
-Tracey Jackson
-Steve Hagen
-79.49
-Yossi Klein Halevi
-Nafisa Haji
-David Haig
-Mary Downing Hahn
-Roger Lea MacBride
-Steph Jagger
-Ian Jackman
-17.2
-35.74
-Guru Jagat
-4.893
-74.05
-Carrington MacDuffie
-35.81
-66.2
-72.2
-Tony Macaulay
-74.64
-Cynthia Jabar
-24.84
-Carla Hall
-Michael Hale
-72.19
-54.45
-53.48
-David Jacobs
-John Hornor Jacobs
-17.5
-53.48
-Ann-Marie MacDonald
-Jane MacDougall
-71.85
-Amanda Hall
-Shaili Jain M.D.
-43.91
-Peter Jackson
-Dana C. Jack
-Catherine Macaulay
-John Hornor Jacobs
-86.65
-Namita Jain
-David Halberstam
-Richard Jackson
-46.81
-45.39
-Peter Jackson
-Kellie Hailes
-Andrew Macdonald
-Howard Jacobson
-Bernie Mac
-10.42
-11.09
-45.39
-Al Jaffee
-Tessa Hadley
-A.N.D Haksar
-Mary MacCracken
-35.81
-Steph Jagger
-17.86
-Bradley Jackson
-Michele Jaffe
-Namita Jain
-Tracey Jackson
-87.26
-48.84
-Olivia Mace
-Shane Jacobson
-Don Hagen
-17.5
-3.391
-Thomas Hackett
-55.34
-Mick Jackson
-Sarah Jacoby
-11.58
-39.78
-14.77
-8.36
-Nafisa Haji
-Katharina Hagena
-Nasim Marie Jafry
-M MacCallum
-69.73
-Betty MacDonald
-Jessie Haas
-Andrew Macdonald
-87.6
-Robert Jackson
-35.74
-72.19
-48.67
-Daniel Hahn
-1.603
-Kristin Halbrook
-M MacCallum
-59.63
-15.56
-William Hague
-Taylor Hackford
-Debra W. Haffner
-35.74
-Heather Hach
-7.213
-Kathleen Hale
-Terrence J
-45.39
-Andrew Jacobson
-Julie Mac
-3.876
-Kinley MacGregor
-17.55
-Namita Jain
-92.85
-Heather Hach
-Michael Hale
-Dana C. Jack
-15.56
-24.84
-7.213
-Mary MacCracken
-93.95
-99.9
-Kevin MacAllister
-Simon Jacobson
-8.108
-Sheila Hale
-5.41
-65.06
-Sara MacDonald
-Andrew Macdonald
-87.26
-John W. Jacobs M.D.
-52.12
-Heather Hach
-Gene Hackman
-76.93
-Kennell Jackson
-40.1
-Mary MacCracken
-Carla Hall
-35.81
-Sophie Jaff
-26.54
-Joie Jager-Hyman
-Emma Jackson
-17.2
-Jeremy Jackson
-50.88
-43.91
-Olivia Mace
-David H. Hackworth
-96.83
-Rachel Jacobs
-Ruth H. Jacobs
-Dana Jacobi
-Bonnie MacBird
-Al Jaffee
-M MacCallum
-Lynn F. Jacobs
-Carrington MacDuffie
-82.63
-Cynthia Jabar
-24.34
-48.77
-90.74
-Marylin Hafner
-82.63
-84.43
-79.38
-72.19
-55.34
-17.5
-Gene Hackman
-26.33
-53.79
-Marilyn Hagerty
-Araminta Hall
-71.85
-David Jacobs
-79.58
-28.06
-Keach Hagey
-Araminta Hall
-87.16
-48.28
-Marilyn Hagerty
-Bethany Hagen
-Sara MacDonald
-10.31
-83.43
-17.5
-79.09
-30.97
-Kathleen Hale
-Laura Holmes Haddad
-Jessie Haas
-14.77
-David Haig
-11.63
-63.57
-89.61
-John Jacobs
-15.89
-Gene Hackman
-36.24
-19.32
-79.38
-Mary MacCracken
-Nate Jackson
-74.62
-William Hague
-76.56
-79.49
-Ruby Jackson
-7.213
-Saskia Maarleveld
-74.62
-45.39
-Tracey Jackson
-42.81
-79.49
-28.71
-Auston Habershaw
-Bruce Hale
-36.24
-54.45
-Rawi Hage
-Jo Jackson King
-Cynthia Jabar
-Richard Jacoby
-Andrew Macdonald
-Daniel Hahn
-24.4
-91.38
-45.39
-7.065
-74.05
-54.82
-Vicky Hales-Dutton
-Yossi Klein Halevi
-36.24
-Margaret Peterson Haddix
-19.32
-14.77
-62.17
-85.84
-75.0
-79.87
-Ellen Jackson
-Catherine Macaulay
-Peter Haining
-Annie Maccoby
-David Macfarlane
-10.42
-88.39
-8.759
-40.1
-35.74
-51.43
-48.77
-Ann-Marie MacDonald
-87.6
-Ellie Macdonald
-Michael Hague
-11.58
-Ruby Jackson
-David Haig
-28.69
-53.48
-90.91
-Jennifer Haigh
-43.06
-92.0
-92.0
-Kevin MacAllister
-57.53
-Katharina Hagena
-50.88
-15.89
-Margaret Read MacDonald
-Carla Jablonski
-61.6
-Kate Jacoby
-Sylvie Haisman
-Tony Macaulay
-Saskia Maarleveld
-Kellie Hailes
-Steve Hagen
-H. JACKSON
-John Hale
-Korey Jackson
-3.336
-Betty Halbreich
-35.6
-Dana C. Jack
-Elaine Hall
-Bonnie MacBird
-54.45
-61.6
-John Hornor Jacobs
-William Hague
-Marilyn Hagerty
-59.62
-Simon Jacobson
-98.87
-David Haig
-Myla Jackson
-46.81
-Guru Jagat
-June Hadley
-21.24
-Jeannette Haien
-76.48
-63.33
-40.43
-85.69
-Emma Jackson
-99.9
-35.74
-Kathryn Miller Haines
-93.97
-79.38
-Adele Jacques
-Baby Halder
-48.67
-75.18
-35.71
-Colin Jack
-28.06
-Andrew Jacobson
-8.759
-Carla Hall
-17.39
-Carla Jablonski
-52.12
-60.27
-Shelley Jackson
-Richard Jacoby
-Norm MacDonald
-6.364
-43.12
-David Halberstam
-17.54
-Nathan Hale
-11.63
-James B. Maas
-Kady MacDonald Denton
-Catherine Macaulay
-75.0
-Kate Jacoby
-Roger O.M.D. Jahnke
-63.33
-59.67
-Colin Jack
-David Macfarlane
-James Macdonald
-Richard Mabey
-79.58
-16.78
-Madhur Jaffrey
-32.81
-62.74
-17.39
-Jane MacDougall
-Bonnie MacBird
-14.77
-Heather Hach
-98.87
-Chuck Hagel
-90.69
-83.43
-John W. Jacobs
-David Hagedorn
-Todd Haberkorn
-Mary Curran Hackett
-Catherine Macaulay
-Kinley MacGregor
-89.85
-Daniel Hahn
-Laura Holmes Haddad
-Joshilyn Jackson
-79.87
-89.85
-Kathryn Ma
-50.75
-John Hale
-3.876
-A.N.D Haksar
-16.5
-35.81
-48.67
-Keach Hagey
-89.61
-32.99
-39.78
-80.31
-Kristin Hahn
-53.48
-Richard Mabey
-Derek Jacobi
-Jerome A. Jackson
-5.41
-32.99
-45.09
-David Halberstam
-Bradley Jackson
-23.87
-47.48
-50.88
-William Hague
-Daniel Hahn
-T. T. Macan
-27.87
-91.92
-Fiona MacDonald
-87.26
-91.92
-Elaine Hall
-Robert Macfarlane
-John Hale
-53.79
+Student@7f63425a
+Student@36d64342
+Student@39ba5a14
+Student@511baa65
+Student@340f438e
+Student@30c7da1e
+Student@5b464ce8
+Student@57829d67
+Student@19dfb72a
+Student@36d64342
+Student@17c68925
+Student@7e0ea639
+Student@3d24753a
+Student@59a6e353
+Student@7a0ac6e3
+Student@71be98f5
+Student@6fadae5d
+Student@17f6480
+Student@2d6e8792
+Student@2812cbfa
+Student@2acf57e3
+Student@506e6d5e
+Student@96532d6
+Student@3796751b
+Student@67b64c45
+Student@4411d970
+Student@6442b0a6
+Student@60f82f98
+Student@35f983a6
+Student@7f690630
+Student@edf4efb
+Student@2f7a2457
+Student@566776ad
+Student@6108b2d7
+Student@1554909b
+Student@6bf256fa
+Student@3d24753a
+Student@6cd8737
+Student@22f71333
+Student@13969fbe
+Student@17c68925
+Student@36d64342
+Student@17c68925
+Student@71be98f5
+Student@6aaa5eb0
+Student@3498ed
+Student@1a407d53
+Student@3d8c7aca
+Student@5ebec15
+Student@21bcffb5
+Student@380fb434
+Student@668bc3d5
+Student@3796751b
+Student@17c68925
+Student@3cda1055
+Student@6aaa5eb0
+Student@7a5d012c
+Student@3fb6a447
+Student@566776ad
+Student@79b4d0f
+Student@6b2fad11
+Student@79698539
+Student@73f792cf
+Student@2ed94a8b
+Student@38082d64
+Student@dfd3711
+Student@42d3bd8b
+Student@26ba2a48
+Student@3498ed
+Student@5f2050f6
+Student@17f6480
+Student@57829d67
+Student@3b81a1bc
+Student@64616ca2
+Student@13fee20c
+Student@4e04a765
+Student@783e6358
+Student@17550481
+Student@735f7ae5
+Student@180bc464
+Student@39ba5a14
+Student@1324409e
+Student@2c6a3f77
+Student@246ae04d
+Student@62043840
+Student@5315b42e
+Student@2ef9b8bc
+Student@38082d64
+Student@5d624da6
+Student@7a0ac6e3
+Student@1e67b872
+Student@22f71333
+Student@60addb54
+Student@3f2a3a5
+Student@4cb2c100
+Student@6fb554cc
+Student@36d64342
+Student@614c5515
+Student@77b52d12
+Student@13969fbe
+Student@2d554825
+Student@68837a77
+Student@1324409e
+Student@13969fbe
+Student@5b464ce8
+Student@1e67b872
+Student@6be46e8f
+Student@3567135c
+Student@327471b5
+Student@4157f54e
+Student@2c6a3f77
+Student@90f6bfd
+Student@2acf57e3
+Student@68837a77
+Student@5b464ce8
+Student@47f6473
+Student@3d8c7aca
+Student@2812cbfa
+Student@3d8c7aca
+Student@59a6e353
+Student@2c6a3f77
+Student@15975490
+Student@6b143ee9
+Student@1936f0f5
+Student@6615435c
+Student@6615435c
+Student@3567135c
+Student@59a6e353
+Student@246ae04d
+Student@4909b8da
+Student@77b52d12
+Student@19dfb72a
+Student@5d624da6
+Student@39ba5a14
+Student@2812cbfa
+Student@511baa65
+Student@3a03464
+Student@47f6473
+Student@3b81a1bc
+Student@22f71333
+Student@2d3fcdbd
+Student@dfd3711
+Student@617c74e5
+Student@6537cf78
+Student@1324409e
+Student@67b6d4ae
+Student@67b6d4ae
+Student@34b7bfc0
+Student@366e2eef
+Student@6df97b55
+Student@30c7da1e
+Student@3cbbc1e0
+Student@35fb3008
+Student@7225790e
+Student@783e6358
+Student@6aaa5eb0
+Student@5d624da6
+Student@506e6d5e
+Student@54a097cc
+Student@36f6e879
+Student@5a61f5df
+Student@6b143ee9
+Student@3551a94
+Student@531be3c5
+Student@246ae04d
+Student@614c5515
+Student@7e0ea639
+Student@52af6cff
+Student@735b478
+Student@5f2050f6
+Student@506e6d5e
+Student@2c9f9fb0
+Student@2096442d
+Student@5315b42e
+Student@17c68925
+Student@17f6480
+Student@246ae04d
+Student@9f70c54
+Student@7f63425a
+Student@234bef66
+Student@737996a0
+Student@59a6e353
+Student@61dc03ce
+Student@50f8360d
+Student@2cb4c3ab
+Student@13fee20c
+Student@13c78c0b
+Student@47f6473
+Student@7a5d012c
+Student@9f70c54
+Student@36d64342
+Student@90f6bfd
+Student@2096442d
+Student@4cb2c100
+Student@7f63425a
+Student@19dfb72a
+Student@737996a0
+Student@47f6473
+Student@12843fce
+Student@2f7a2457
+Student@3dd3bcd
+Student@97e1986
+Student@26f67b76
+Student@153f5a29
+Student@7f560810
+Student@6b143ee9
+Student@22f71333
+Student@735b478
+Student@3b81a1bc
+Student@9f70c54
+Student@668bc3d5
+Student@69d9c55
+Student@13c78c0b
+Student@13a57a3b
+Student@19dfb72a
+Student@6fb554cc
+Student@5d624da6
+Student@3796751b
+Student@7ca48474
+Student@337d0578
+Student@59e84876
+Student@2c6a3f77
+Student@61a485d2
+Student@35f983a6
+Student@4157f54e
+Student@dfd3711
+Student@6fadae5d
+Student@39fb3ab6
+Student@6276ae34
+Student@57829d67
+Student@7946e1f4
+Student@7ca48474
+Student@246ae04d
+Student@506e6d5e
+Student@3551a94
+Student@38082d64
+Student@3c09711b
+Student@3f2a3a5
+Student@5cc7c2a6
+Student@b97c004
+Student@5ebec15
+Student@4590c9c3
+Student@3c09711b
+Student@32e6e9c3
+Student@5056dfcb
+Student@614c5515
+Student@34b7bfc0
+Student@1324409e
+Student@668bc3d5
+Student@36f6e879
+Student@1a407d53
+Student@3498ed
+Student@6574b225
+Student@6be46e8f
+Student@2d554825
+Student@2669b199
+Student@12843fce
+Student@7a5d012c
+Student@6574b225
+Student@668bc3d5
+Student@2344fc66
+Student@3498ed
+Student@6b2fad11
+Student@7f560810
+Student@73f792cf
+Student@9f70c54
+Student@1324409e
+Student@458ad742
+Student@7f690630
+Student@234bef66
+Student@71be98f5
+Student@5a61f5df
+Student@35fb3008
+Student@17550481
+Student@5afa04c
+Student@511baa65
+Student@531be3c5
+Student@2d6e8792
+Student@6ea12c19
+Student@668bc3d5
+Student@71be98f5
+Student@380fb434
+Student@5056dfcb
+Student@19dfb72a
+Student@6a024a67
+Student@36d64342
+Student@5315b42e
+Student@506e6d5e
+Student@13fee20c
+Student@153f5a29
+Student@7f63425a
+Student@7921b0a2
+Student@36d64342
+Student@59a6e353
+Student@3b81a1bc
+Student@6537cf78
+Student@13fee20c
+Student@1936f0f5
+Student@67b64c45
+Student@174d20a
+Student@71be98f5
+Student@77b52d12
+Student@13a57a3b
+Student@66d2e7d9
+Student@3f2a3a5
+Student@7e0ea639
+Student@6b143ee9
+Student@52af6cff
+Student@6276ae34
+Student@1efbd816
+Student@59a6e353
+Student@6a2bcfcb
+Student@2ef9b8bc
+Student@4de8b406
+Student@3cbbc1e0
+Student@4e04a765
+Student@71be98f5
+Student@79b4d0f
+Student@380fb434
+Student@35fb3008
+Student@17c68925
+Student@3c756e4d
+Student@7c0e2abd
+Student@5f2050f6
+Student@13969fbe
+Student@2acf57e3
+Student@5afa04c
+Student@3c09711b
+Student@1efbd816
+Student@6615435c
+Student@48eff760
+Student doesn't exists...
+Student@402f32ff
+Student@13a57a3b
+Student@246ae04d
+Student@21bcffb5
+Student@b97c004
+Student@5b464ce8
+Student@3551a94
+Student@96532d6
+Student@573f2bb1
+Student@30c7da1e
+Student@153f5a29
+Student@17550481
+Student@3f2a3a5
+Student@13969fbe
+Student@5ae9a829
+Student@2d3fcdbd
+Student@6d8a00e3
+Student@548b7f67
+Student@548b7f67
+Student@12843fce
+Student@340f438e
+Student@6aaa5eb0
+Student@35f983a6
+Student@6ea12c19
+Student@48eff760
+Student@566776ad
+Student@90f6bfd
+Student@59a6e353
+Student@7ac7a4e4
+Student@22f71333
+Student@7921b0a2
+Student@15975490
+Student@64616ca2
+Student@6d78f375
+Student@7f63425a
+Student@6a2bcfcb
+Student@79b4d0f
+Student@50c87b21
+Student@3498ed
+Student@90f6bfd
+Student doesn't exists...
+Student@2cb4c3ab
+Student@3dd3bcd
+Student@77b52d12
+Student@90f6bfd
+Student@68837a77
+Student@5315b42e
+Student@3498ed
+Student@39ba5a14
+Student@2f7a2457
+Student@4909b8da
+Student@17550481
+Student@32e6e9c3
+Student@3d8c7aca
+Student@62043840
+Student@5f375618
+Student@2acf57e3
+Student@54a097cc
+Student@1810399e
+Student@3796751b
+Student@32d992b2
+Student@215be6bb
+Student@59e84876
+Student@47f6473
+Student@246ae04d
+Student@32d992b2
+Student@617c74e5
+Student@5056dfcb
+Student@4439f31e
+Student@5056dfcb
+Student@7e0ea639
+Student@6aaa5eb0
+Student@327471b5
+Student@3fb6a447
+Student@12843fce
+Student@61dc03ce
+Student@402f32ff
+Student@6fb554cc
+Student@5dfcfece
+Student@566776ad
+Student@3b81a1bc
+Student@7ac7a4e4
+Student@23ceabc1
+Student@7e0ea639
+Student@21bcffb5
+Student@5d5eef3d
+Student@56f4468b
+Student@3d8c7aca
+Student@15975490
+Student@6cc4c815
+Student@5afa04c
+Student@69d9c55
+Student@3d24753a
+Student@2acf57e3
+Student@7c0e2abd
+Student@59a6e353
+Student@2c9f9fb0
+Student@3796751b
+Student@2f7a2457
+Student@3fb6a447
+Student@1efbd816
+Student@614c5515
+Student@458ad742
+Student@2669b199
+Student@59e84876
+Student@30c7da1e
+Student@6b2fad11
+Student@17550481
+Student@5dfcfece
+Student@1e67b872
+Student@3dd3bcd
+Student@35fb3008
+Student@9f70c54
+Student@4909b8da
+Student@380fb434
+Student@19dfb72a
+Student@9f70c54
+Student@3a82f6ef
+Student@1810399e
+Student@100fc185
+Student doesn't exists...
+Student@26f67b76
+Student@2acf57e3
+Student@13fee20c
+Student@643b1d11
+Student@52af6cff
+Student@71be98f5
+Student@2ef5e5e3
+Student@5f2050f6
+Student@643b1d11
+Student@35f983a6
+Student@96532d6
+Student@7f63425a
+Student@2cb4c3ab
+Student@77b52d12
+Student@3a03464
+Student@5d624da6
+Student@7e0ea639
+Student@7a5d012c
+Student@531be3c5
+Student@36d4b5c
+Student@3cbbc1e0
+Student@6d00a15d
+Student@51efea79
+Student@13969fbe
+Student@458ad742
+Student@7225790e
+Student@4cb2c100
+Student@26f67b76
+Student@36d4b5c
+Student@5034c75a
+Student@3d8c7aca
+Student@511baa65
+Student@6fb554cc
+Student@234bef66
+Student@35f983a6
+Student@5315b42e
+Student@52af6cff
+Student@edf4efb
+Student@6bf256fa
+Student@6d78f375
+Student@7c0e2abd
+Student@22f71333
+Student@6d78f375
+Student@2cb4c3ab
+Student@396a51ab
+Student@7f63425a
+Student@1a407d53
 ----------------------------------------

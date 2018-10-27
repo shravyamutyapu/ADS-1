@@ -15,11 +15,16 @@ final class Solution{
               String[] get1 = sc.nextLine().split(" ");
               if (get1[2].equals("2")) {
                   if (hash.contains(get1[1])) {
-                      System.out.println(hash.get(get1[1]).getMarks());
+                      System.out.println(hash.get(get1[1]));
+                  }
+                  else {
+                      System.out.println("Student doesn't exists...");
                   }
               } else if (get1[2].equals("1")) {
                   if (hash.contains(get1[1])) {
-                      System.out.println(hash.get(get1[1]).getName());
+                      System.out.println(hash.get(get1[1]));
+                  } else {
+                      System.out.println("Student doesn't exists...");
                   }
               }
               getting--;
