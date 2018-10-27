@@ -5,9 +5,10 @@ final class Solution{
 		LinearProbingHashST<String, Student> hash =
       new LinearProbingHashST<String, Student>();
 		int numOfRecords = Integer.parseInt(sc.nextLine());
-		for(int i = 0;i<numOfRecords;i++){
+		while(numOfRecords>0){
 			String[] record = sc.nextLine().split(",");
 			hash.put(record[0],new Student(record[1],Double.parseDouble(record[2])));
+			numOfRecords= numOfRecords - 1 ;
 		}
 		int getting = Integer.parseInt(sc.nextLine());
 		for(int j = 0;j<getting;j++){
