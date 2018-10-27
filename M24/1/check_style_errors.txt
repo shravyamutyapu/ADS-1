@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:1:14: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:2:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:2:16: Variable 'name' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:3:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:3:16: Variable 'rollNumber' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:4:17: Variable 'marks' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:17: Parameter studName should be final. [FinalParameters]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:34: Parameter rollNum should be final. [FinalParameters]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:50: Parameter total should be final. [FinalParameters]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:63: '{' is not preceded with whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 15 errors.
