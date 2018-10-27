@@ -14,6 +14,7 @@ final class Solution {
 		while (queries > 0) {
 			String[] line = sc.nextLine().split(" ");
 			if(line[0].equals("BE")) {
+				if(hash.get(line[1]).getMarks()<=Double.parseDouble(line[1]) && hash.get(line[1]).getMarks()>=Double.parseDouble(line[2]))
 				System.out.println(hash.get(line[1]).getName());
 			}
 			else
