@@ -14,6 +14,7 @@ class Student {
     private Double  marks;
     /**
      * returns student name.
+     * time complexity is O(1).
      * @return studentName[description]
      */
     public String getName() {
@@ -21,6 +22,7 @@ class Student {
     }
     /**
      * returns total marks.
+     * time complexity is O(1).
      * @return students marks.
      */
     public Double getMarks() {
