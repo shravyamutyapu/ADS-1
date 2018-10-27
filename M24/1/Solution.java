@@ -11,10 +11,18 @@ final class Solution{
 			numOfRecords= numOfRecords - 1 ;
 		}
 		int getting = Integer.parseInt(sc.nextLine());
-		for(int j = 0;j<getting;j++){
-			String[] get1 = sc.nextLine().split(" ");
-			if(hash.contains(get1[0])) System.out.println(hash.get(get1[0]));
-			else System.out.println("Student doesn't exists...");
-		}
+          while (getting > 0) {
+              String[] get1 = sc.nextLine().split(" ");
+              if (get1[2].equals("2")) {
+                  if (hash.contains(get1[1])) {
+                      System.out.println(hash.get(get1[1]).getMarks());
+                  }
+              } else if (get1[2].equals("1")) {
+                  if (hash.contains(get1[1])) {
+                      System.out.println(hash.get(get1[1]).getName());
+                  }
+              }
+              getting--;
+          }
 	}
 }

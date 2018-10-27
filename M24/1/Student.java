@@ -1,7 +1,13 @@
 class Student{
-	String name;
+	private String name;
 	// String rollNumber;
-	Double  marks;
+	private Double  marks;
+	public String getName(){
+		return name;
+	}
+	public Double getMarks(){
+		return marks;
+	}
 	Student(String studName, Double total){
 		this.name = studName;
 		// this.rollNumber = rollNum;
