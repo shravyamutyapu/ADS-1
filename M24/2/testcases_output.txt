@@ -1,12 +1,14 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Clark
 Rivest
 Dan
 Abegg
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:17)
+Clark
+Rivest
+Dan
+Abegg
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -56,8 +58,51 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:17)
+Clark
+Rivest
+Adams
+Rachel Caine
+David Cabot
+Sasha Cagen
+Wayne
+Cozbi A. Cabrera
+Jeannette Caines
+Jonathan Cainer
+Rhian Cahill
+Peter
+Bob
+Maria Cabezas
+Alice
+Access
+Yassi
+Knuth
+Charles
+Biba Caggiano
+Hank
+Deborah Cadbury
+Abegg
+Dan Caddy
+John
+James Caffin
+Neil Cadigan
+Greig Caigou
+Tim Cahill
+Douglas
+Rovina Cai
+Meg Cabot
+Tim Cain
+Tony
+James Cain
+Steve Cafferty
+Brian Caffrey
+Fred
+Simon
+Megon
+George Cain
+Sally Cabot
+Daniel
+Keith
+Meili Cady
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -124,9 +169,68 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:15)
+Hank
+Deborah Cadbury
+Abegg
+Dan Caddy
+John
+James Caffin
+Neil Cadigan
+Greig Caigou
+Tim Cahill
+Douglas
+Rovina Cai
+Meg Cabot
+Tim Cain
+Tony
+James Cain
+Steve Cafferty
+Brian Caffrey
+Fred
+Simon
+Megon
+George Cain
+Sally Cabot
+Daniel
+Keith
+Meili Cady
+Clark
+Rivest
+Hank
+Deborah Cadbury
+Sasha Cagen
+Abegg
+Cozbi A. Cabrera
+Dan Caddy
+John
+James Caffin
+Neil Cadigan
+Greig Caigou
+Tim Cahill
+Rhian Cahill
+Douglas
+Rovina Cai
+Meg Cabot
+Tim Cain
+Tony
+James Cain
+Steve Cafferty
+Brian Caffrey
+Fred
+Simon
+Megon
+George Cain
+Sally Cabot
+Daniel
+Keith
+Meili Cady
+Hank
+Deborah Cadbury
+Dan Caddy
+Neil Cadigan
+Steve Cafferty
+Megon
+Meili Cady
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -845,6 +949,718 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:17)
+Namita Jain
+Keith Habersberger
+Yamile Saied Méndez
+H3CZ
+John Jacobs
+Wayne Pacelle
+Stuart B. MacBride
+Tessa Hadley
+Elaine Pagels
+Sammy Hagar
+Alison Mackey PhD
+Amanda Mackenzie Stuart
+Portia MacIntosh
+Margie Palatini
+Madhur Jaffrey
+Bristol Palin
+Steve Jackson
+Howard Jacobson
+Kristin Hahn
+Saskia Maarleveld
+Andrew Macdonald
+Shaili Jain M.D.
+Greg Page
+Alison Mackey
+Gordon Jack
+Kevin MacAllister
+Amanda Hall
+Marianna Palka
+Harvey Mackay
+Allan Hall
+Aggie MacKenzie
+Tracy Hafen
+Kathryn Miller Haines
+Danielle Paige
+George Jacobs
+Jennifer Haigh
+Chuck Hagel
+Magnus MacFarlane-Barrow
+Sheila Hale
+Steven Pacey
+Elaine Hall
+Kate Jacoby
+Daniel Paisner
+Brad Haddin
+Nathan Hale
+Jeremy Jackson
+Steve Hagen
+W. G. Hale
+James Graham Hale
+Alex James
+Margaret Haffner
+Mark Palmer
+Peter Jackson
+Bonner Paddock
+Albert Jack
+Carlos Pan
+Korey Jackson
+Robin MacArthur
+Michael Page
+Michael Hague
+Laura Holmes Haddad
+Kathryn Jacobi
+Tiffany D. Jackson
+Peter Haining
+Jimmy Palmiotti
+Dana C. Jack
+Charles B. Macdonald
+Colin Jack
+William Haefeli
+Rona Jaffe
+Mary Curran Hackett
+Colleen Padilla
+Kellie Hailes
+Sylvie Haisman
+Taylor Hackford
+Chris Pallace
+Gildart Jackson
+Barry Pain
+William Hague
+June Hadley
+A.N.D Haksar
+Auston Habershaw
+Debra W. Haffner
+Richard Jacoby
+Betty MacDonald
+Rachel Jacobs
+Laurence Packer
+Norm Macdonald
+Roger O.M.D. Jahnke
+George Packer
+Bonnie MacBird
+Carla Hall
+Frank Pacetta
+David Packard
+Norm MacDonald
+Ron Padgett
+Warren Mackenzie
+Emma Jackson
+D. J. MacHale
+Mick Jackson
+Nasim Marie Jafry
+Guru Jagat
+Ed J. Paine
+Adele Jacques
+Piers A. Jacob
+Shelley Jackson
+Ellie Macdonald
+Cindy Pan
+Philip MacDonald
+Louise Mack
+Michele Jaffe
+Robert Ian MacKenzie
+Macky Pamintuan
+Niccolo Machiavelli
+Scott Palmer
+John Hale
+Pamela Haag
+Bonnie MacBird
+Sarah Palin
+Emma Page
+Jim Paillot
+Steph Jagger
+Andrew Jacobson
+Rawi Hage
+Sophie Jaff
+Thomas Hackett
+Tim Andres Pabon
+Simon Jacobson
+Gerry Hadden
+Charlie Haas
+Shvetha Jaishankar
+Ian Jackman
+Bradley Jackson
+Dana Jacobi
+Pamela Palmer
+Christopher N. Page
+Rebecca Pacheco
+Al Jaffee
+Bethany Hagen
+Merle Haggard
+Meredith Jaeger
+Stuart MacBride
+Madeleine Maby
+Linden MacIntyre
+Nafisa Haji
+Don Hagen
+Bethany Palmer
+Penny Palmano
+David H. Hackworth
+Shannon Hale
+Jerome A. Jackson
+Lorrie Mack
+Helena S. Paige
+David Halberstam
+Juliette MacIver
+Daniel Palmer
+Stuart MacBride
+Marilyn Hagerty
+Jenna Bush Hager
+Aparna Jain
+Marianna Palk
+Douglas Palmer
+Ruby Jackson
+Sara MacDonald
+Michael Panckridge
+Mark Macdonald
+Ellen Jackson
+Kennell Jackson
+Bernie Mac
+Katherine Hall Page
+Kathleen Hale
+John Jacobs
+T. T. Macan
+Amanda Mackenzie Stuart
+Catherine Macaulay
+Ruth H. Jacobs
+Vicky Hales-Dutton
+Nate Jackson
+Edward Paice
+Thelma Page
+Melissa P
+Margaret Peterson Haddix
+Marylin Hafner
+Parker J. Palmer
+Iva-Marie Palmer
+Cynthia Jabar
+John W. Jacobs M.D.
+Olivia Mace
+Chris Packham
+Alan Jacobs
+Katie MacAlister
+Richard Jackson
+Joseph A. Maciariello
+Derek Jacobi
+Tracey Jackson
+Meredith L. Jacobs
+Carrington MacDuffie
+Gracie MacGregor
+David Haig
+Monica Palms
+Kathryn Ma
+Melanie MacHugh
+Rebecca Paley
+Anthony Haden-Guest
+Amanda Maciel
+Peter Maas
+Lynn F. Jacobs
+Namita Jain
+Yossi Klein Halevi
+Shane Jacobson
+Virginia Macgregor
+Libby Jackson
+Michael Jaime-Becerra
+Aparna Pande
+J.D. Jackson
+Sarah Jacoby
+Simcha Jacobovici
+Jo Jackson King
+Burton L. Mack
+Svetlana Palmer
+Hannah Paasch
+Araminta Hall
+Kady MacDonald Denton
+Kevin MacAllister
+Myla Jackson
+Keith Habersberger
+Kieran Palmer
+Baby Halder
+Joshilyn Jackson
+Kinley MacGregor
+Carla Jablonski
+Emily Hainsworth
+Harvey B. Mackay
+Sang Pak
+Alex Palmer
+James Macdonald
+Andy Paciorek
+Manoj Pandey
+Betty Halbreich
+Jane MacDougall
+Jane Paley
+Bruce Hale
+Jennifer Page
+Thomas Paine
+Sara Mackenzie
+Maxwell Mackenzie
+Yamile Saied Méndez
+John W. Jacobs
+Todd Haberkorn
+Kristin Halbrook
+Richard Mabey
+Nick Page
+Helen Palmer
+Fiona Palmer
+H3CZ
+Margaret Read MacDonald
+Sari Padorr
+Anna-Liisa Hakkarainen
+Mary MacCracken
+John Jacobs
+Thomas Pakenham
+Wayne Pacelle
+Roger Lea MacBride
+Jean Reynolds Page
+Stuart B. MacBride
+Tessa Hadley
+Robert Jackson
+Ann-Marie MacDonald
+Sean Padraic
+Katharina Hagena
+David Hagedorn
+Liza Palmer
+Julie Mac
+Audrey Mackaman
+Jeff Mack
+Tony Macaulay
+Heather Hach
+Fiona MacKenzie
+Jamuna Pai
+Annie Maccoby
+Elaine Pagels
+Michael Haag
+Gene Hackman
+Terrence J
+Michael Hale
+Fiona MacDonald
+Jeff MacGregor
+David Macfarlane
+Jessie Haas
+Jake Page
+Sammy Hagar
+Cindy Dr. Pan
+Niall Mackenzie
+Robert Macfarlane
+Mary Downing Hahn
+Keach Hagey
+M MacCallum
+Joie Jager-Hyman
+John Hornor Jacobs
+Melissa Jacobs
+James B. Maas
+Alison Mackey PhD
+Amanda Mackenzie Stuart
+Tim Page
+Mark Haddon
+H. JACKSON
+Harvey Mackay
+Danielle Paige
+Sheila Hale
+Elaine Hall
+Jeremy Jackson
+Margaret Haffner
+Korey Jackson
+Kathryn Jacobi
+Jimmy Palmiotti
+Mary Curran Hackett
+Chris Pallace
+Gildart Jackson
+William Hague
+June Hadley
+Laurence Packer
+Bonnie MacBird
+David Packard
+Ed J. Paine
+Cindy Pan
+Macky Pamintuan
+Scott Palmer
+John Hale
+Emma Page
+Thomas Hackett
+Pamela Palmer
+Rebecca Pacheco
+Meredith Jaeger
+Jenna Bush Hager
+Michael Panckridge
+Melissa P
+Margaret Peterson Haddix
+Parker J. Palmer
+John W. Jacobs M.D.
+Katie MacAlister
+Joseph A. Maciariello
+Derek Jacobi
+Monica Palms
+Portia MacIntosh
+Peter Maas
+Bristol Palin
+Lynn F. Jacobs
+Andrew Macdonald
+Greg Page
+David Jacobs
+Jeannette Haien
+Namita Jain
+Yossi Klein Halevi
+Shane Jacobson
+Virginia Macgregor
+Libby Jackson
+Michael Jaime-Becerra
+Steven Pacey
+Aparna Pande
+J.D. Jackson
+Marina Palmer
+Sarah Jacoby
+Simcha Jacobovici
+Jo Jackson King
+Burton L. Mack
+James Graham Hale
+Alex James
+Svetlana Palmer
+Hannah Paasch
+Araminta Hall
+Kady MacDonald Denton
+Kevin MacAllister
+Myla Jackson
+Michael Page
+Keith Habersberger
+Kieran Palmer
+Baby Halder
+Joshilyn Jackson
+Kinley MacGregor
+Carla Jablonski
+Emily Hainsworth
+Dana C. Jack
+Charles B. Macdonald
+Harvey B. Mackay
+Sang Pak
+Sylvie Haisman
+Taylor Hackford
+Alex Palmer
+Charles Panati
+James Macdonald
+A.N.D Haksar
+Andy Paciorek
+Manoj Pandey
+Betty Halbreich
+Norm Macdonald
+Jane MacDougall
+Jane Paley
+Roger O.M.D. Jahnke
+George Packer
+Norm MacDonald
+Warren Mackenzie
+Bruce Hale
+Piers A. Jacob
+Ellie Macdonald
+Jennifer Page
+Thomas Paine
+Sara Mackenzie
+Maxwell Mackenzie
+Robert Ian MacKenzie
+Yamile Saied Méndez
+John W. Jacobs
+Todd Haberkorn
+Steph Jagger
+Sophie Jaff
+Tim Andres Pabon
+Simon Jacobson
+Kristin Halbrook
+Richard Mabey
+Nick Page
+Helen Palmer
+Fiona Palmer
+H3CZ
+Gerry Hadden
+Margaret Read MacDonald
+Sari Padorr
+Anna-Liisa Hakkarainen
+Mary MacCracken
+Bradley Jackson
+John Jacobs
+Christopher N. Page
+Thomas Pakenham
+Wayne Pacelle
+Merle Haggard
+Roger Lea MacBride
+Jean Reynolds Page
+Madeleine Maby
+Linden MacIntyre
+Daniel Hahn
+Stuart B. MacBride
+Tessa Hadley
+Penny Palmano
+Shannon Hale
+Robert Jackson
+Ann-Marie MacDonald
+Sean Padraic
+Lorrie Mack
+Katharina Hagena
+David Hagedorn
+Liza Palmer
+Julie Mac
+Audrey Mackaman
+Helena S. Paige
+Juliette MacIver
+Jeff Mack
+Tony Macaulay
+Heather Hach
+Fiona MacKenzie
+Jamuna Pai
+Annie Maccoby
+Elaine Pagels
+Michael Haag
+Aparna Jain
+Sara Palacios
+Gene Hackman
+Terrence J
+Ruby Jackson
+Michael Hale
+Ellen Jackson
+Fiona MacDonald
+Jeff MacGregor
+Nate Jackson
+David Macfarlane
+Edward Paice
+Jessie Haas
+Jake Page
+Sammy Hagar
+Cindy Dr. Pan
+Niall Mackenzie
+Robert Macfarlane
+Mary Downing Hahn
+Keach Hagey
+M MacCallum
+Joie Jager-Hyman
+Tracey Jackson
+John Hornor Jacobs
+Melissa Jacobs
+James B. Maas
+Gracie MacGregor
+David Haig
+Kathryn Ma
+Alison Mackey PhD
+Amanda Mackenzie Stuart
+Tim Page
+Mark Haddon
+H. JACKSON
+Andrew Macdonald
+Greg Page
+David Jacobs
+Jeannette Haien
+Marina Palmer
+Alex James
+Charles B. Macdonald
+Daniel Hahn
+Sara Palacios
+Ruby Jackson
+Madhur Jaffrey
+Howard Jacobson
+Kristin Hahn
+Alison Mackey
+Kevin MacAllister
+Amanda Hall
+Marianna Palka
+Harvey Mackay
+Aggie MacKenzie
+Tracy Hafen
+Danielle Paige
+Chuck Hagel
+Magnus MacFarlane-Barrow
+Sheila Hale
+Elaine Hall
+Daniel Paisner
+Brad Haddin
+Nathan Hale
+Jeremy Jackson
+Margaret Haffner
+Peter Jackson
+Bonner Paddock
+Albert Jack
+Korey Jackson
+Robin MacArthur
+Michael Hague
+Kathryn Jacobi
+Peter Haining
+Jimmy Palmiotti
+Colin Jack
+Rona Jaffe
+Mary Curran Hackett
+Kellie Hailes
+Chris Pallace
+Gildart Jackson
+Barry Pain
+William Hague
+June Hadley
+Betty MacDonald
+Rachel Jacobs
+Laurence Packer
+Bonnie MacBird
+Carla Hall
+Frank Pacetta
+David Packard
+Emma Jackson
+D. J. MacHale
+Ed J. Paine
+Cindy Pan
+Philip MacDonald
+Michele Jaffe
+Macky Pamintuan
+Scott Palmer
+John Hale
+Pamela Haag
+Bonnie MacBird
+Emma Page
+Jim Paillot
+Andrew Jacobson
+Thomas Hackett
+Shvetha Jaishankar
+Ian Jackman
+Pamela Palmer
+Rebecca Pacheco
+Meredith Jaeger
+Jerome A. Jackson
+Stuart MacBride
+Jenna Bush Hager
+Sara MacDonald
+Michael Panckridge
+Kennell Jackson
+Bernie Mac
+Katherine Hall Page
+T. T. Macan
+Amanda Mackenzie Stuart
+Catherine Macaulay
+Melissa P
+Margaret Peterson Haddix
+Parker J. Palmer
+Iva-Marie Palmer
+Cynthia Jabar
+John W. Jacobs M.D.
+Katie MacAlister
+Richard Jackson
+Joseph A. Maciariello
+Derek Jacobi
+Meredith L. Jacobs
+Carrington MacDuffie
+Monica Palms
+Libby Jackson
+Aparna Pande
+Sarah Jacoby
+Jo Jackson King
+Burton L. Mack
+Baby Halder
+Joshilyn Jackson
+Kinley MacGregor
+Harvey B. Mackay
+Alex Palmer
+Charles Panati
+James Macdonald
+Manoj Pandey
+Jane MacDougall
+Jennifer Page
+Thomas Paine
+John W. Jacobs
+Kristin Halbrook
+Richard Mabey
+Nick Page
+Anna-Liisa Hakkarainen
+Katharina Hagena
+David Hagedorn
+Liza Palmer
+Julie Mac
+Audrey Mackaman
+Fiona MacKenzie
+Michael Hale
+Fiona MacDonald
+Jeff MacGregor
+Jessie Haas
+M MacCallum
+Joie Jager-Hyman
+Melissa Jacobs
+James B. Maas
+Tim Page
+Mark Haddon
+Madhur Jaffrey
+Kristin Hahn
+Alison Mackey
+Amanda Hall
+Marianna Palka
+Harvey Mackay
+Aggie MacKenzie
+Tracy Hafen
+Danielle Paige
+Chuck Hagel
+Magnus MacFarlane-Barrow
+Sheila Hale
+Elaine Hall
+Daniel Paisner
+Nathan Hale
+Jeremy Jackson
+Margaret Haffner
+Peter Jackson
+Bonner Paddock
+Korey Jackson
+Kathryn Jacobi
+Peter Haining
+Jimmy Palmiotti
+Colin Jack
+Rona Jaffe
+Mary Curran Hackett
+Kellie Hailes
+Chris Pallace
+Gildart Jackson
+William Hague
+June Hadley
+Laurence Packer
+Bonnie MacBird
+David Packard
+Emma Jackson
+Ed J. Paine
+Cindy Pan
+Philip MacDonald
+Michele Jaffe
+Macky Pamintuan
+Scott Palmer
+John Hale
+Pamela Haag
+Emma Page
+Jim Paillot
+Thomas Hackett
+Shvetha Jaishankar
+Ian Jackman
+Pamela Palmer
+Rebecca Pacheco
+Meredith Jaeger
+Jenna Bush Hager
+Sara MacDonald
+Michael Panckridge
+Kennell Jackson
+Bernie Mac
+Katherine Hall Page
+Melissa P
+Margaret Peterson Haddix
+Parker J. Palmer
+John W. Jacobs M.D.
+Katie MacAlister
+Richard Jackson
+Joseph A. Maciariello
+Derek Jacobi
+Carrington MacDuffie
+Monica Palms
+Shaili Jain M.D.
+Laura Holmes Haddad
+Auston Habershaw
+Nasim Marie Jafry
+Shelley Jackson
+Al Jaffee
+Nafisa Haji
+David H. Hackworth
+Daniel Palmer
+Marilyn Hagerty
+Marianna Palk
+John Jacobs
+Vicky Hales-Dutton
+Thelma Page
+Chris Packham
+Rebecca Paley
 ----------------------------------------

@@ -2,31 +2,44 @@ import java.util.Scanner;
 final class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		LinearProbingHashST<String, Student> hash =
-		    new LinearProbingHashST<String, Student>();
+		LinearProbingHashST<Student, String> hash =
+		    new LinearProbingHashST<Student, String>();
 		int recordCount = Integer.parseInt(sc.nextLine());
 		while (recordCount > 0) {
 			String[] rec = sc.nextLine().split(",");
-			hash.put(rec[0], new Student (rec[1], Double.parseDouble(rec[2])));
+
+			hash.put(new Student (rec[1], Double.parseDouble(rec[2])),rec[0]);
 			recordCount--;
 		}
-		int queries = Integer.parseInt(sc.nextLine());
-		while (queries > 0) {
-			String[] line = sc.nextLine().split(" ");
-			if(line[0].equals("BE")) {
-				if(hash.get(line[1]).getMarks()<=Double.parseDouble(line[1]) && hash.get(line[1]).getMarks()>=Double.parseDouble(line[2]))
-				System.out.println(hash.get(line[1]).getName());
-			}
-			else
-				if(line[1].equals("LE")) {
-				System.out.println(hash.get(line[1]).getName());
+          int queries = Integer.parseInt(sc.nextLine());
+          while (queries > 0) {
+              String[] line = sc.nextLine().split(" ");
+              if (line[0].equals("BE")) {
+                  double less = Double.parseDouble(line[1]);
+                  double great = Double.parseDouble(line[2]);
+                  for (Student each : hash.keys()) {
+                      if (each.getMarks() >= less && each.getMarks() <= great) {
+                          System.out.println(each.getName());
+                      }
+                  }
+              } else if (line[0].equals("LE")) {
+                  double value = Double.parseDouble(line[1]);
+                  for (Student each : hash.keys()) {
+                      if (each.getMarks() <= value) {
+                          System.out.println(each.getName());
+                      }
+                  }
+              } else if (line[0].equals("GE")) {
+                  double value = Double.parseDouble(line[1]);
+                  for (Student each : hash.keys()) {
+                      if (each.getMarks() >= value) {
+                          System.out.println(each.getName());
+                      }
+                  }
+              }
+              queries--;
+          }
+      }
 
-			}
-			else if(line[1].equals("GE")){
-				System.out.println(hash.get(line[1]).getName());
 
-			}
-		}
-
-		}
 }
