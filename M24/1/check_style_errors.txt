@@ -1,17 +1,6 @@
 Starting audit...
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:1:14: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:2:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:4:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:5:32: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:8:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:8:33: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:11:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:11:17: Parameter studName should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:11:34: Parameter total should be final. [FinalParameters]
-[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:11:47: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:34:17: Parameter studName should be final. [FinalParameters]
+[ERROR] D:\github\MSIT\ADS-1\M24\1\Student.java:34:34: Parameter total should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 3 errors.
