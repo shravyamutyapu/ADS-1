@@ -10,9 +10,10 @@ final class Solution{
 			hash.put(record[0],new Student(record[1],Double.parseDouble(record[2])));
 		}
 		int getting = Integer.parseInt(sc.nextLine());
-		for(int j =0;j<getting;j++){
+		for(int j = 0;j<getting;j++){
 			String[] get1 = sc.nextLine().split(" ");
-			System.out.println(hash.get(get1[0]));
+			if(hash.contains(get1[0])) System.out.println(hash.get(get1[0]));
+			else System.out.println("Student doesn't exists...");
 		}
 	}
 }
