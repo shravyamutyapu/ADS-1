@@ -1,10 +1,10 @@
 class Student{
 	String name;
-	String rollNumber;
+	// String rollNumber;
 	Double  marks;
-	Student(String studName, String rollNum, Double total){
+	Student(String studName, Double total){
 		this.name = studName;
-		this.rollNumber = rollNum;
+		// this.rollNumber = rollNum;
 		this.marks = total;
 	}
 
